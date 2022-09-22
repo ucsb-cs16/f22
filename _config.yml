@@ -1,0 +1,128 @@
+default_branch: main
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme@pcmultlectwithmasterormain
+
+kramdown:
+  parse_block_html: false
+
+exclude: ['vendor', 'setup.sh', 'jekyll.sh']
+include:
+  - _pages
+
+timezone: America/Los_Angeles
+
+url: https://ucsb-cs16.github.io
+baseurl: "/f22"
+github_url: https://github.com/ucsb-cs16/f22
+
+title: "UCSB CS16"
+course: "CS16"
+qtr: "F22"
+quarter: "Fall 2022"
+
+ta_names: "Alex, Gautam, Kaiwen, and Vinothini "
+la_names: "Gretchen and Zach"
+lab_times: "R: 2p,3p,4p,5p"
+instructor: "Diba Mirza"
+lecture_times: "MW - 11:00a-12:15p"
+lecture_location: "BUCHN 1920"
+github_org: ucsb-cs16-f22
+piazza: https://piazza.com/class/l8dc2qfbpso3l/
+
+start_week: 0
+start_date: 2022-09-25 
+num_weeks: 10
+extra_exam_week: true
+lecture_days_of_week: MW
+
+instructor_url: https://ucsb-cs16.github.io/instructor
+
+cal_dates: >
+  [                                                                            
+    {"label":"F22 1st day of instruction", "date":"2022-09-26" },
+    {"label":"Veterans' Day", "date":"2022-11-11" },
+    {"label":"Thanksgiving", "date":"2022-11-25" },
+    {"label":"Thanksgiving", "date":"2022-11-26" },
+    {"label":"F22 instruction ends", "date":"2022-12-03" },
+    {"label":"F22 finals start", "date":"2022-12-04" },
+    {"label":"F22 CS16 MIDTERM (2pm-3:15pm)", "date":"2022-10-26" },                      
+    {"label":"F22 CS16 FINAL (noon-3pm)", "date":"2022-12-08" },                                               
+    {"label":"F22 qtr ends", "date":"2022-12-09" }                              
+  ]
+
+
+collections:
+  hwk:
+    output: true
+    permalink: /hwk/:path/
+    last_before: false
+  lab:
+    output: true
+    permalink: /lab/:path/
+    last_before: false
+  pa:
+    output: true
+    permalink: /pa/:path/
+    last_before: false
+  exam:
+    output: true
+    permalink: /exam/:path/
+  info:
+    output: true
+    permalink: /info/:path/
+  lectures:
+    output: true
+    permalink: /lectures/:path/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: hwk
+    values:
+      layout: hwk
+  -
+    scope:
+      path: ""
+      type: lab
+    values:
+      layout: lab
+  -
+    scope:
+      path: ""
+      type: pa
+    values:
+      layout: lab
+  -
+    scope:
+      path: ""
+      type: exam
+    values:
+      layout: exam_info
+  -
+    scope:
+      path: ""
+      type: info
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: lectures
+    values:
+      layout: lecture
+  -
+    scope:
+      path: "syllabus.md"
+      type: info
+    values:
+      layout: handout

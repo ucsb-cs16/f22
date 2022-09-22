@@ -1,0 +1,24 @@
+{%- if site.data.navigation.offerings -%}
+  {%- assign offerings = site.data.navigation.offerings -%}
+  {%- capture title -%}{{ offerings.title | default: "Qxx"}}{%- endcapture -%}
+  {%- capture baseurl -%}{{ offerings.baseurl | default: "/Qxx"}}{%- endcapture -%}
+{%- else -%}
+    <!-- NOTE: Missing offerings section in  _data/navigation.yml -->
+    <script>
+      console.log("WARNING: define offerings in _data/navigation.yml");
+    </script>
+    {%- assign title = "Qxx" -%}
+    {%- assign baseurl = "/Qxx" -%}
+{%- endif -%}
+
+{%- for item in site.data.navigation.offering_links -%}
+    {%- if item.dropdown -%}
+      {%- assign dropdown = item -%}
+      {%- include navbar-offering-specific-dropdown.html -%}
+    {%- else -%}
+       {%- assign link = item -%}
+       <li class="nav-item">
+	 {%- include navbar-offering-specific-link.html class="nav-link" -%}
+       </li>	 
+    {%- endif -%}
+{%- endfor -%}

@@ -1,0 +1,9 @@
+{%- if site.data.navigation.offering_menus -%}
+  {%- include navbar-offerings-dropdown-dynamic.html -%}
+{%- elsif site.data.navigation.offerings -%}
+  {%- if site.data.navigation.offerings.items.size > 1 -%}
+    {%- include navbar-offerings-dropdown-static.html -%}
+  {%- else -%}
+    {%- include navbar-offerings-single.html -%}
+  {%- endif -%}
+{%- endif -%}

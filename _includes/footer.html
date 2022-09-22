@@ -1,0 +1,19 @@
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light footer-navbar {% if site.suppress_footer %} d-none {% endif %}">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#footer-navbar-NavAltMarkup" aria-controls="footer-navbar-NavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="footer-navbar-NavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="{{site.github_url}}">github site</a>
+      <a class="nav-item nav-link" href="{{site.github_url}}/edit/master/{{page.path}}">edit this page on github</a>
+      <span class="nav-item travis-ci-status {% if site.suppress_travis_ci_status %} d-none {% endif %}">
+	{%- capture travis-ci-url -%}{{site.github_url | replace: 'https://github.com/', 'https://travis-ci.org/'}}{%- endcapture -%}
+	<a class="nav-link" href="{{ travis-ci-url }}">
+	  <img src="{{travis-ci-url}}.svg?branch=master" alt="Build Status">
+	</a>
+      </span>
+    </div>
+  </div>
+</nav>

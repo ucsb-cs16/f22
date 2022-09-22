@@ -1,0 +1,17 @@
+current directory: /Users/dibamirza/git/s21/vendor/bundle/ruby/3.0.0/gems/racc-1.6.0/ext/racc/cparse
+/Users/dibamirza/.rbenv/versions/3.0.3/bin/ruby -I /Users/dibamirza/.rbenv/versions/3.0.3/lib/ruby/3.0.0 -r ./siteconf20211230-21509-yv7g44.rb extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/dibamirza/git/s21/vendor/bundle/ruby/3.0.0/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\= clean
+
+current directory: /Users/dibamirza/git/s21/vendor/bundle/ruby/3.0.0/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\=
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/dibamirza/git/s21/vendor/bundle/ruby/3.0.0/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\= install
+/opt/homebrew/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20211230-21509-bn71bf/racc

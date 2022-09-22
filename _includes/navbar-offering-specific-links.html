@@ -1,0 +1,5 @@
+{%- if site.data.navigation.offering_links -%}
+  {%- include navbar-offering-specific-links-static.html -%}
+{%- elsif site.data.navigation.offering_menus -%}
+  {%- include navbar-offering-specific-links-dynamic.html -%}
+{%- endif -%}

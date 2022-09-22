@@ -1,0 +1,8 @@
+<ul>
+  {% assign textbooks = site.textbooks | sort: 'custom_sort_order' %}
+  {% for textbook in textbooks %}
+  <li>
+    <a href="{{textbook.url | relative_url }}">{{ textbook.title }}</a>&mdash;{{textbook.desc}}
+  </li>
+  {% endfor %}
+</ul>

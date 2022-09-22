@@ -1,0 +1,27 @@
+{% assign get_prev_link = true %}
+{% assign get_next_link = false %}
+
+{% for lect in site.lectures %}
+  {% if lect.num == page.num %}
+     {% assign get_prev_link = false %}	
+     {% assign get_next_link = true %}
+  {% elsif get_next_link == true %}
+     {% assign get_next_link = false %}
+     {% assign next_link = lect.url %}
+  {% elsif get_prev_link == true %}
+    {% assign prev_link = lect.url %}
+  {% endif %}
+{% endfor %}
+
+<table>
+<tr>
+{% if prev_link %}
+  <td><a href="{{prev_link | relative_url}}">Previous Lecture</a></td>
+  {% endif %}
+<td>{{page.num}}</td>
+{% if next_link %}
+ <td><a href="{{next_link | relative_url}}">Next Lecture</a></td>
+{% endif %}
+</tr>
+</table>
+

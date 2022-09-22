@@ -1,0 +1,26 @@
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="offerings-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    {{ offering_title | default: "x" }}
+  </a>
+  <div class="dropdown-menu" aria-labelledby="offerings-dropdown">
+    {%- for link in site.data.navigation.offerings.items -%}
+
+      {%- if link.url contains '://' -%}
+        {%- assign url = link.url -%}
+      {%- else -%}
+         {%- if link.baseurl == site.baseurl -%}
+            {%- assign url = link.url | relative_url -%}
+         {%- else -%}
+            {%- capture url -%}{{production_url}}{{link.baseurl}}{{link.url}}{%- endcapture -%}
+         {%- endif -%}
+      {%- endif -%}
+
+      <a class="dropdown-item offerings-dropdown-item" href="#"
+	 data-url="{{ url }}"
+        {%- if link.description -%}
+         title="{{ link.description }}"
+        {%- endif -%}>{{ link.title }}</a>
+    {%- endfor -%}
+  </div>
+</li>

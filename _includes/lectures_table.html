@@ -1,0 +1,24 @@
+<table id="lectures_table" class="asn_table">
+<tr>
+  <th>num</th>
+  <th>date</th>
+  <th>description</th>
+</tr>
+
+{% for lect in site.lectures %}
+{% if lect.ready %}
+<tr>
+  <td><a href="{{lect.url | relative_url }}">{{ lect.num }}</a></td>
+  {% if lect.lecture_date %}
+  <td>{{ lect.lecture_date | date: "%a %m/%d" }}</td>
+  {% else %}
+  <td>{{ lect.date | date: "%a %m/%d" }}</td>
+  {% endif %}
+  <td>{{ lect.desc }}{% if lect.slides %}&nbsp;(<a href="{{lect.slides|relative_url}}">slides</a>){% endif%}{% if lect.annotatedready %}&nbsp;(<a href="{{lect.annotatedpdfurl|relative_url}}">annotated slides</a>){% endif%}</td>
+</tr>
+{% endif %}
+{% if lect.last_before %}
+<tr><th colspan="3">{{lect.last_before}}</th></tr>
+{% endif %}
+{% endfor %}
+</table>

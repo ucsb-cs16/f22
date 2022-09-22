@@ -1,0 +1,19 @@
+{%- for menu in site.data.navigation.offering_menus -%}
+  {%- if menu.term==site.data.navigation.offering_menus[0].term %}
+     {%- assign display_class = "" -%}
+  {%- else -%}
+     {%- assign display_class = "d-none" -%}
+  {%- endif -%}
+  {%- assign baseurl = menu.baseurl -%}
+  {%- for item in menu.items -%}
+    {%- if item.dropdown -%}
+      {%- assign dropdown = item -%}
+      {%- include navbar-offering-specific-dropdown.html data-term=menu.term display_class=display_class -%}
+    {%- else -%}
+      {%- assign link = item -%}
+      <li class="nav-item {{display_class}}" data-term="{{menu.term}}">
+        {%- include navbar-offering-specific-link.html class="nav-link" data-term=menu.term -%}	
+      </li>	 
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}

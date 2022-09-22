@@ -1,0 +1,19 @@
+{% include nav_assign_home_variables.html %}
+{% include nav_assign_offering_variables.html %}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <a class="navbar-brand" href="{{home_url_final}}">{{ site.data.navigation.home.title | default: 'Home' }}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <ul class="navbar-nav mr-auto">
+      {%- include navbar-main-dropdown.html -%}
+      {%- include navbar-main-extra.html -%}
+      {%- include navbar-offerings.html -%}
+      {%- include navbar-offering-specific-links.html -%}
+    </ul>
+  </div>
+</nav>
+

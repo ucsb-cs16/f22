@@ -1,0 +1,18 @@
+{%- if site.data.navigation.main_extra -%}
+{%- for item in site.data.navigation.main_extra -%}
+
+    {%- if item.dropdown -%}
+      {%- assign dropdown = item -%}
+      {%- include navbar-main-extra-dropdown.html -%}
+      {%- include navbar-offering-specific-dropdown.html -%}
+    {%- else -%}
+       {%- assign link = item -%}
+       <li class="nav-item">
+	 {%- include navbar-main-extra-link.html class="nav-link" -%}
+       </li>	 
+    {%- endif -%}
+
+
+
+{%- endfor -%}
+{%- endif -%}

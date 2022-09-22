@@ -1,0 +1,1 @@
+on  {{ page.exam_date | date: "%A, %B %-d" }} from {{ page.exam_date | date: "%-I:%M%P"  }} to   {{ page.exam_end |  date: "%-I:%M%P" }}

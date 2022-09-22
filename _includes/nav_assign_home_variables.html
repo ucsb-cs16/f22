@@ -1,0 +1,32 @@
+{% if site.data.navigation.production_url %}
+  {% assign production_url = site.data.navigation.production_url %}
+{% else %}
+  {% assign production_url = site.url %}
+{% endif %}
+
+{% if site.data.navigation.home.url %}
+  {% assign home_url = site.data.navigation.home.url %}
+{% else %}
+  {% assign home_url = site.url %}
+{% endif %}
+
+
+{%- if home_url contains '://' -%}
+  {%- assign home_url_final = home_url -%}
+{%- else -%}
+  {%- if site.baseurl == "/" -%}
+    {%- assign home_url_final = home_url | relative_url -%}
+  {%- else -%}
+     {%- capture home_url_final -%}{{production_url}}{{home_url}}{%- endcapture -%}
+  {%- endif -%}
+{%- endif -%}
+
+
+<script>
+  console.log("site.url={{site.url}}");
+  console.log("site.baseurl={{site.baseurl}}");
+  console.log("site.data.navigation.home.url={{site.data.navigation.home.url}}");
+  console.log("site.data.navigation.home.baseurl={{site.data.navigation.home.baseurl}}");
+  console.log("home_url={{home_url}}");
+  console.log("home_url_final={{home_url_final}}");
+</script>

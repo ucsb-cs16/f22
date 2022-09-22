@@ -1,0 +1,20 @@
+current directory: /Users/dibamirza/git/s21/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/Users/dibamirza/.rbenv/versions/3.0.3/bin/ruby -I /Users/dibamirza/.rbenv/versions/3.0.3/lib/ruby/3.0.0 -r ./siteconf20211230-21509-bjjx86.rb extconf.rb
+creating Makefile
+
+current directory: /Users/dibamirza/git/s21/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= clean
+
+current directory: /Users/dibamirza/git/s21/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\=
+compiling ruby_http_parser.c
+ruby_http_parser.c:365:17: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'long' [-Wsign-compare]
+    if (nparsed < len)
+        ~~~~~~~ ^ ~~~
+1 warning generated.
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/dibamirza/git/s21/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= install
+/opt/homebrew/bin/ginstall -c -m 0755 ruby_http_parser.bundle ./.gem.20211230-21509-7oi0xc

@@ -1,0 +1,41 @@
+{% if site.data.navigation.offerings.url %}
+  {% assign offering_url = site.data.navigation.offerings.url %}
+{% elsif site.data.navigation.offering_menus %}
+  {% assign offering_url = "/"  %}
+{% else %}
+  {% assign offering_url = "#"  %}
+{% endif %}
+
+{% if site.data.navigation.offerings.baseurl %}
+  {% assign offering_baseurl = site.data.navigation.offerings.baseurl %}
+{% elsif site.data.navigation.offering_menus[0].baseurl %}
+  {% assign offering_url = site.data.navigation.offering_menus[0].baseurl %}
+{% else %}
+  {% assign offering_baseurl = "/" %}
+{% endif %}
+
+{%- if offering_baseurl contains '://' -%}
+  {%- assign offering_url_final = offering_baseurl -%}
+{%- else -%}
+  {%- if offering_baseurl == site.baseurl -%}
+    {%- assign offering_url_final = offering_url | relative_url -%}
+  {%- else -%}
+     {%- capture offering_url_final -%}{{production_url}}{{offering_baseurl}}{{offering_url}}{%- endcapture -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- if site.data.navigation.offering_menus -%}
+  {%- assign offering_title = site.data.navigation.offering_menus[0].term -%}
+{%- elsif site.data.navigation.offerings.items[0].title -%}
+  {%- assign offering_title = site.data.navigation.offerings.items[0].title -%}
+{%- else -%}
+  {%- assign offering_title = "--" -%}
+{%- endif -%}
+
+
+<script>
+  console.log("offering_url={{offering_url}}");
+  console.log("offering_baseurl={{offering_baseurl}}");
+  console.log("offering_url_final={{offering_url_final}}");
+  console.log("offering_title={{offering_title}}");
+</script>

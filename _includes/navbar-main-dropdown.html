@@ -1,0 +1,28 @@
+{%- if site.data.navigation.main_dropdown -%}
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="main-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    {{site.data.navigation.main_dropdown.title | default: "-" }}
+  </a>
+  <div class="dropdown-menu" aria-labelledby="main-dropdown">
+    {%- for link in site.data.navigation.main_dropdown.items -%}
+
+      {%- if link.url contains '://' -%}
+        {%- assign url = link.url -%}
+      {%- else -%}
+         {%- if site.baseurl == "/" -%}
+            {%- assign url = link.url | relative_url -%}
+         {%- else -%}
+            {%- capture url -%}{{production_url}}{{link.baseurl}}{{link.url}}{%- endcapture -%}
+         {%- endif -%}
+      {%- endif -%}
+
+      <a class="dropdown-item" href="{{ url }}"
+        {%- if link.description -%}
+         title="{{ link.description }}"
+        {%- endif -%}>{{ link.title }}</a>
+    {%- endfor -%}
+  </div>
+</li>
+
+{%- endif -%}

@@ -1,0 +1,17 @@
+{%- assign link = site.data.navigation.offerings.url -%}
+{%- assign baseurl = site.data.navigation.offerings.baseurl -%}
+{%- if link.url contains '://' -%}
+  {%- assign url = link.url -%}
+{%- else -%}
+  {%- if site.baseurl =="" or site.baseurl=="/" -%}
+    {%- capture url -%}{{production_url}}{{link.baseurl}}{{link.url}}{%- endcapture -%}
+  {%- else -%}
+    {%- assign url = link.url | relative_url -%}
+  {%- endif -%}
+{%- endif -%}
+
+<li class="nav-item">
+  <a class="nav-link" href="{{ offering_url_final | default: "#" }}">
+    {{ offering_title | default: "()" }}
+  </a>
+</li>
