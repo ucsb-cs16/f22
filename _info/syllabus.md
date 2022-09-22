@@ -20,10 +20,10 @@ You must contact the instructor for clarification if you receive information fro
 
 ## Grade breakdown by evaluation component
 
-* zyBooks Assignments: 25% 
-* Gradescope assignments: 25%
-* Midterm Exams (2): 25%
-* Final Examination : 25%
+* zyBooks Assignments: 20% 
+* Gradescope Assignments: 20%
+* Midterm Exam: 25%
+* Final Examination : 35%
 
 Letter Grades:
 
@@ -84,16 +84,16 @@ Letter Grades:
 
 # Schedule <a name="schedule"></a>
 
-For office hours please see [the Staff  Page](/f21/info/staff/).
+For office hours please see [the Staff  Page]({{site.baseurl}}/info/staff/).
 
-For hw, lab and exam schedule, please check the [assignment calendar](/f21/info/calendar/).
+For hw, lab and exam schedule, please check the [assignment calendar]({{site.baseurl}}/info/calendar/).
 
 
 # Resources <a name="resources"></a>
 
 ## Required Resources
 
-The zyBook for this course is required.  Information on signing up was distributed via Gauchospace, and appears on Homework [H00](https://ucsb-cs16.github.io/f21/hwk/h00/)
+The zyBook for this course is required.  Information on signing up was distributed via Gauchospace, and appears on Homework [H00]({{site.github_url}}/hwk/h00/)
 
 # What this course is about <a name="about"></a>
 

@@ -4,7 +4,7 @@ title: "CS16, F22, Mirza"
 
 ## {{site.course}} {{site.quarter}}
 
-* All announcements will be posted on Piazza {{site.piazza}}
+* All announcements will be posted on [Piazza]({{site.piazza}})
 * Link to [code written in lecture](https://github.com/ucsb-cs16-f22/lectures)
 
 
