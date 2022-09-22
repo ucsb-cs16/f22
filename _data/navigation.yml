@@ -18,9 +18,68 @@ home:
    url: /
    baseurl: /
 
-offering_menus:
+main_dropdown:
+   title: Resources
+   items:
+     - title: Topics
+       url: /topics/
+     - title: Resources
+       url: /resources/
 
+offering_menus:
   -
+    term: F22
+    baseurl: /f22
+    items: 
+      - title: Homework
+        url: /hwk/
+        description: "Homework Assignments"
+      - title: Lab
+        url: /lab/
+        description: "Lab Assignments"
+      - title: Lectures
+        url: /lectures/
+        description: "Lecture notes"
+      - title: Exam
+        url: /exam/
+        description: "Exams"
+      - title: Calendar
+        url: /info/calendar/
+        description: "Assignment Calendar"
+      - title: Info
+        dropdown:
+          - title: Syllabus
+            url: /info/syllabus/
+            description: "University and course policies"    
+          - title: Open Lab/Office Hours
+            url: /info/staff/
+            description: "Staff information + Office Hours / Open Lab Hours"
+          - title: Other Info Links
+            url: /info
+            description: "Other course information"
+      - title: Links
+        dropdown:  
+          - title: Gauchospace
+            url: https://gauchospace.ucsb.edu
+            description: "Overall Grade Information"
+          - title: zyBooks
+            url: https://zyBooks.com
+            description: "Online Textbook"
+          - title: Piazza
+            url: https://piazza.com
+            description: "Q&A Forum"
+          - title: Repl.it
+            url: https://repl.it
+            description: "Online coding"
+          - title: GradeScope
+            url: https://gradescope.com
+            description: "HW and Lab Grades"
+      - title: Github
+        dropdown:
+          - title: ucsb-cs16-f22
+            url: https://github.com/ucsb-cs16-f22
+ 
+  -        
     term: F21
     baseurl: /f21
     items: 
@@ -69,8 +128,8 @@ offering_menus:
             description: "HW and Lab Grades"
       - title: Github
         dropdown:
-          - title: ucsb-cs16-f21
-            url: https://github.com/ucsb-cs16-f21
+          - title: ucsb-cs16-mirza
+            url: https://github.com/ucsb-cs16-mirza
   -
     term: W20
     baseurl: /w20
@@ -114,13 +173,5 @@ offering_menus:
             description: "Q&A Forum"
       - title: Github
         dropdown:
-          - title: ucsb-cs16-mirza
-            url: https://github.com/ucsb-cs16-mirza
-    
-main_dropdown:
-    title: Resources
-    dropdown:
-       - title: Topics
-         url: /topics/
-       - title: Resources
-         url: /resources/
+          - title: ucsb-cs16-f21
+            url: https://github.com/ucsb-cs16-f21
