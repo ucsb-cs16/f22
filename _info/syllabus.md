@@ -20,7 +20,7 @@ You must contact the instructor for clarification if you receive information fro
 
 ## Grade breakdown by evaluation component
 
-* zyBooks Assignments: 20% 
+* Homeworks (zybook and instructor assigned): 20% 
 * Gradescope Assignments: 20%
 * Midterm Exam: 25%
 * Final Examination : 35%
@@ -200,18 +200,16 @@ be comfortable with all of the following:</p>
 
 # Graded components <a name="moreabout"></a>
 
-<p>There are five components to this course, each of which has a special job to do:</p>
+<p>There are four components to this course, each of which has a special job to do:</p>
 <ul>
-  <li><strong>(1) Reading</strong>—Between each class, you'll have reading to do in the textbook. There is too much information you need to learn in this course for you to get all of it in lecture, so the readings are essential. The reading assignments for the next class can be found in the lecture notes for that class.<br />
-    <br />
-  </li>
+
   <li><strong>(2) Homeworks</strong>
-    <br />The reading and homeworks are practice for the exams. Homeworks will be posted on the course website each week (downloadable as a pdf). You must submitted your homwork answers electronically as a pdf file to gradescope. The preferred format is that you download the source pdf of the homework, write or type your answers. You may also print the original homework, write your answers using a dark pencil or pen, then scan your work. You may also simply use any text editor to write the answers to each question, convert the file to pdf and upload to gradescope.<br />
+    <br />Between each class, you'll read and complete the activities in the online textbook (zybook). I'll assign other homeworks (outside of zybook as needed) The reading and homeworks are practice for the exams. Homeworks will be posted on the course website each week. Completion of zybook readings is automatically tracked within the book. <br />
     <br />
 <br />
   </li>
 
-  <li><strong>(3) Programming Assignments (Labs)</strong>—Programming assignments (also called labs) are given once a week, and are typically assigned every Friday. You may work on them during closed labs and plan to finish the assignment on your own time outside of lab. You must however, read the assignment and attempt the parts that you do with little assistant as soon as the assignment is released. The assumption is that you at the very least read the assignment before your lab section. You are encouraged to use pair programming in most of the labs but please read the collaboration policy for each lab. Some labs have to be completed individually.<br />
+  <li><strong>(3) Gradescope Assignments </strong>— These are mainly programming assignments (also called labs) given once a week. You may work on them during your section time and plan to finish the assignment on your own time outside of section. Read the assignment before your lab section. You are encouraged to use pair programming in most of the labs but please read the collaboration policy for each lab. Some labs have to be completed individually.<br />
     <br />
   </li>
   <li><strong>(4) Lectures</strong>—Learning is something that you do as a student, not something that is &quot;done to you&quot; by a teacher. Therefore most of the learning you will do in this course takes place when you are actively involved in doing something challenging (i.e., during the homework assignments and labs). Most of the information you will need to do those assignments will come from the reading. <br />
@@ -230,7 +228,7 @@ be comfortable with all of the following:</p>
         </ul>
   </li>
 
-<li><strong>(5) Exams</strong>&mdash;There are three exams in this course— two midterms and a final. No makeups will be given for the final exam. Please make sure that you have no conflicts with the final if you are taking this course.</li>
+<li><strong>(5) Exams</strong>&mdash;There are 2 exams in this course— one midterm and a final. No makeups will be given for the final exam. Please make sure that you have no conflicts with the final if you are taking this course.</li>
 
 
 
