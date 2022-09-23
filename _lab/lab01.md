@@ -41,9 +41,6 @@ If you have a standing conflict with your section, please use the "Section swap 
 
 <hr />
 
-Everything below this line is for TAs/LAs.  Students are welcome to read it&mdash;there are no secrets here&mdash;but you don't really need to.
-
-
 # What we are working on today
 
 * You'll be introduced to the primary TA for your section, and the TAs/LAs helping them out.
@@ -118,7 +115,7 @@ We will pivot to using a better editor, VS Code, once we understand the basics o
 
 No worries; you can ask the staff for help.  In the meantime, if you prefer, you can just make progress in the zyBook, up through Chapter 7.
 
-The rest of this page is instructions for the TAs.
+Everything below this line is for TAs/LAs.  Students are welcome to read it&mdash;there are no secrets here&mdash;but you don't really need to.
 
 # Instructions for Primary TA:
 
