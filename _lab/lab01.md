@@ -37,7 +37,7 @@ Accordingly:
 
 With such a large number of students, we need to be sure that there is an appropriate number of staff deployed to help you.  If everyone just comes to "whatever discussion section suits their schedule", we'll have problems.
 
-If you have a standing conflict with your section, please use the "Section swap request" discussion on Campuswire.com to find someone to switch with.
+If you have a standing conflict with your section, please use the "Section swap request" discussion on Piazza to find someone to switch with.
 
 <hr />
 
