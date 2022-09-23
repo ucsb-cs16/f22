@@ -106,7 +106,7 @@ So:
 <p >Do we need to bring laptops to class? </p>
 <p >You do not <em>need</em> to bring a laptop to class but you are **encouraged** to bring your laptop to follow along during live coding sessions in lecture, and to use your own device during lab (discussion sections).</p>
 
-<p >Research has shown that the use of electronic devices for purposed othen than note-taking or class related activities hampers the learning of both the student and those sitting close by. Although you are allowed to bring your laptop or mobile device, please do not use it to read email or Facebook, play games, etc. That latter use can be a real distraction to others sitting behind that student, not to mention the distraction to the laptop user herself/himself.</p>
+<p >Research has shown that the use of electronic devices for purposes other than note-taking or class related activities hampers the learning of both the student and those sitting close by. Although you are allowed to bring your laptop or mobile device, please do not use it to read email or Facebook, play games, etc. That latter use can be a real distraction to others sitting behind that student, not to mention the distraction to the laptop user herself/himself.</p>
 <p> The instructor holds the right to ask you to leave the class if you fail to comply with the course policy on using devices.</p>
 
 
