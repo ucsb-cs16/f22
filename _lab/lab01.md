@@ -18,11 +18,15 @@ ready: true
 # What we are working on today
 
 * You'll be introduced to the primary TA for your section, and the TAs/LAs helping them out.
-
-* You'll then just work in the zyBook, at whatever place you left off.
-
-* You may also revisit older sections if there were things you didn't fully understand, or have questions.
-
+* Then, please try your CSIL/ECI account if you haven't already 
+  * If you already logged in to any of the desktop machines in Phelps 3525, you've already verified that your CSIL/ECI account works.
+  * If you haven't, try the commands in the section `CSIL/ECI Account` below.  
+  * This is preparation for next week's lab.
+* Then you have a choice between a two activities:
+  * Getting a head start on next week's lab by:
+    * Learning some basic vim commands by playing this game: <https://vim-adventures.com/>
+    * Then trying your hand at creating and compiling a "Hello World" program on your CSIL/ECI account.
+  * Or: just continue working in the zyBook where you left off.
 * If the TAs/LAs are not busy helping students with CS16 questions, you may also just ask your TAs/LAs general questions about the course, about Computer Science, and about UCSB; but please give priority to students with questions about CMPSC 16 material.
 
 # Will every week be like this?
@@ -40,20 +44,6 @@ With such a large number of students, we need to be sure that there is an approp
 If you have a standing conflict with your section, please use the "Section swap request" discussion on Piazza to find someone to switch with.
 
 <hr />
-
-# What we are working on today
-
-* You'll be introduced to the primary TA for your section, and the TAs/LAs helping them out.
-* Then, please try your CSIL/ECI account if you haven't already 
-  * If you already logged in to any of the desktop machines in Phelps 3525, you've already verified that your CSIL/ECI account works.
-  * If you haven't, try the commands in the section `CSIL/ECI Account` below.  
-  * This is preparation for next week's lab.
-* Then you have a choice between a two activities:
-  * Getting a head start on next week's lab by:
-    * Learning some basic vim commands by playing this game: <https://vim-adventures.com/>
-    * Then trying your hand at creating and compiling a "Hello World" program on your CSIL/ECI account.
-  * Or: just continue working in the zyBook where you left off.
-* If the TAs/LAs are not busy helping students with CS16 questions, you may also just ask your TAs/LAs general questions about the course, about Computer Science, and about UCSB; but please give priority to students with questions about CMPSC 16 material.
 
 # CSIL/ECI Account
 
