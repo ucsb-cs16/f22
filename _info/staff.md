@@ -54,11 +54,9 @@ Hi everyone! My name is Nawel, and I am a first year Ph.D. student in the CS dep
 
 ## Gautam Mundewadi, TA
 
-Satyam Awasthi is an MS student in the Department of Computer Science at UC Santa Barbara. He completed his UG studies from IIT Kharagpur, India in 2020 and joined Samsung at SRI-N thereafter. As a software engineer at SRI-N, he broadly worked on Android app development. His current area of interest is web and app development along with computer networking.
-<pre>
-Office Hours: F 9AM - 11AM (online)
-              F 2PM - 4PM  (in-person)
-</pre>
+<img src="https://ucsb-cs16.github.io/f21/info/staff/CS16-F22-Gautam-M.png" alt="Gautam" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+
+Hey all! My name is Gautam and I'm a second year CS Masters student. I was previously an undergrad here at UCSB and was part of the BS/MS program in computer science. I'm currently graduate researcher at the RACElab and my area of research is smartfarm technologies. I've previously interned at Microsoft and Meta and will be joining Meta full time as software engineer in December. As for clubs on campus, I was previously president of Coders SB (check them out!) and Dhadkan. In my free time I love to play video games, paint, kayak from time to time, and wake up early for Formula 1 races. Feel free to reach out if you'd like to know more about my experiences or have any other general questions about UCSB. I'm super excited to be a part of the CS16 staff and I look forward to working with everyone!
 
 ## Kaiwen Li, TA
 
