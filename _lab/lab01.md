@@ -84,7 +84,7 @@ The command `logout` or `exit` can be used to return to your own system.
 
 First, learn about vim, perhaps using one of these resources:
 
-* <https://vim-adventures.com/> Learn vim while playing a game in your browser
+* <https://vim-adventures.com/> Learn vim while playing a game in your browser (see if you can finish level 2 and then move on to the following steps, you can always come back and place some more :))
 * Intro articles about vim:
   * vim overview: <https://ucsb-cs16.github.io/topics/vim/>
   * vim basic eight commands: <https://ucsb-cs16.github.io/topics/vim_basic_eight/>
