@@ -93,7 +93,7 @@ For hw, lab and exam schedule, please check the [assignment calendar]({{site.bas
 
 ## Required Resources
 
-The zyBook for this course is required.  Information on signing up was distributed via Gauchospace, and appears on Homework [H00]({{site.github_url}}/hwk/h00/)
+The zyBook for this course is required.  Information on signing up was distributed via Gauchospace, and appears on Homework [H01]({{site.baseurl}}/hwk/h01/)
 
 # What this course is about <a name="about"></a>
 
