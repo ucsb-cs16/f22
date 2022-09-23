@@ -62,6 +62,8 @@ Office Hours: F 9AM - 11AM (online)
 
 ## Kaiwen Li, TA
 
+<img src="https://ucsb-cs16.github.io/f21/info/staff/CS16-F22-Kaiwen-Li.JPG" alt="Kev" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+
 Hi everyone, my name is Kaiwen Li. I am a first year MS student under BS/MS program in UCSB. I was working on Amazon Alexa team this summer and developed a smart notification delivery system to deliver notifications at an appropriate time. I enjoy riding bikes and I have a white kawasaki. I will ride my bike to school everyday unless it is raining. Don't hesitate to ask me anything about homework, internship, or anything else.
 <pre>
 Office Hours: R 10AM - 11AM (remote)
