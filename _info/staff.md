@@ -50,7 +50,7 @@ on broadening participation in research through early research experiences for u
 
 ## Alex Mei, TA
 
-<img src="../_info/staff/CS16-F22-Alex-Mei.JPG" alt="Alex" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+<img src="../staff/CS16-F22-Alex-Mei.JPG" alt="Alex" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
  
 Hello There! I am Alex Mei, a computer science B.S./M.S. student at University of California, Santa Barbara advised by Professors William Wang and Shiyu Chang under the Natural Language Processing Group. My research interests lie in responsible machine learning, with a current focus on AI safety and transparency. In the past, I have interned at Procore, Benchling, and Two Sigma. In my free time, I am enjoy cooking (alexmeicooking.com) and watching reality competitions (Survivor, The Amazing Race, Masterchef, Hell's Kitchen). Feel free to reach out if you'd like to discuss research, internships, C++ development, or anything else; always happy to help! 
 
