@@ -20,10 +20,10 @@ You must contact the instructor for clarification if you receive information fro
 
 ## Grade breakdown by evaluation component
 
-* Homeworks (zybook and instructor assigned): 20% 
+* Homeworks/Zybook Activities: 20%
 * Gradescope Assignments: 20%
 * Midterm Exam: 25%
-* Final Examination : 35%
+* Final Exam : 35%
 
 Letter Grades:
 
