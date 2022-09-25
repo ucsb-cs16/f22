@@ -203,16 +203,16 @@ be comfortable with all of the following:</p>
 <p>There are four components to this course, each of which has a special job to do:</p>
 <ul>
 
-  <li><strong>(2) Homeworks</strong>
+  <li><strong>(1) Homeworks</strong>
     <br />Between each class, you'll read and complete the activities in the online textbook (zybook). I'll assign other homeworks (outside of zybook as needed) The reading and homeworks are practice for the exams. Homeworks will be posted on the course website each week. Completion of zybook readings is automatically tracked within the book. <br />
     <br />
 <br />
   </li>
 
-  <li><strong>(3) Gradescope Assignments </strong>— These are mainly programming assignments (also called labs) given once a week. You may work on them during your section time and plan to finish the assignment on your own time outside of section. Read the assignment before your lab section. You are encouraged to use pair programming in most of the labs but please read the collaboration policy for each lab. Some labs have to be completed individually.<br />
+  <li><strong>(2) Gradescope Assignments </strong>— These are mainly programming assignments (also called labs) given once a week. You may work on them during your section time and plan to finish the assignment on your own time outside of section. Read the assignment before your lab section. You are encouraged to use pair programming in most of the labs but please read the collaboration policy for each lab. Some labs have to be completed individually.<br />
     <br />
   </li>
-  <li><strong>(4) Lectures</strong>—Learning is something that you do as a student, not something that is &quot;done to you&quot; by a teacher. Therefore most of the learning you will do in this course takes place when you are actively involved in doing something challenging (i.e., during the homework assignments and labs). Most of the information you will need to do those assignments will come from the reading. <br />
+  <li><strong>(3) Lectures</strong>—Learning is something that you do as a student, not something that is &quot;done to you&quot; by a teacher. Therefore most of the learning you will do in this course takes place when you are actively involved in doing something challenging (i.e., during the homework assignments and labs). Most of the information you will need to do those assignments will come from the reading. <br />
     <br />
     Therefore, you may ask, what is the purpose of the lectures?<br />
       <br />
@@ -228,7 +228,7 @@ be comfortable with all of the following:</p>
         </ul>
   </li>
 
-<li><strong>(5) Exams</strong>&mdash;There are 2 exams in this course— one midterm and a final. No makeups will be given for the final exam. Please make sure that you have no conflicts with the final if you are taking this course.</li>
+<li><strong>(4) Exams</strong>&mdash;There are 2 exams in this course— one midterm and a final. No makeups will be given for the final exam. Please make sure that you have no conflicts with the final if you are taking this course.</li>
 
 
 
