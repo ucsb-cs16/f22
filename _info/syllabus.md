@@ -95,6 +95,10 @@ For hw, lab and exam schedule, please check the [assignment calendar]({{site.bas
 
 The zyBook for this course is required.  Information on signing up was distributed via Gauchospace, and appears on Homework [H01]({{site.baseurl}}/hwk/h01/)
 
+## Discussion Forum: Piazza
+All communication with the course staff should be via Piazza through public or private messages. Use this link to join the course site on Piazza <https://piazza.com/university_of_california_santa_barbara/fall2022/cs16f22mirza>
+
+
 # What this course is about <a name="about"></a>
 
 <p><strong>This course is the first in a three course sequence, CS16-24-32 that provides a foundation in data structures and algorithms for deeper study of Computer Science.    <br />
