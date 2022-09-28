@@ -96,4 +96,8 @@ Data Science club at UCSB who has worked on and started sports analytics
 machine learning projects. Connor is also a member of the Gaucho Pep Band,
 so you may see him playing the drums at basketball and soccer games this year.
 
+## Martin Cabello, LA
 
+<img src="https://ucsb-cs16.github.io/f21/info/staff/CS16-F22-MartinC.jpg" alt="Kev" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+
+Hey! I am Martin Cabello. I am a 4th year Computer Science student from Redwood City, CA(Bay Area) and I will be a ULA this quarter. C++ is the langauge I am most confortable with so I am exited to help yall improve your skills in this programming throughout the quarter. Feel free to come to me for any help related to CS or anything you want to talk about.
