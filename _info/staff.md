@@ -67,10 +67,11 @@ Hey all! My name is Gautam and I'm a second year CS Masters student. I was previ
 
 ## Kaiwen Li, TA
 
-Avishek De is a first year MS student in the department of Computer Science. He completed his undergraduate degree in Electrical Engineering with a minor in Computer Science from Indian Institute of Technology (IIT), Roorkee. He also has over four years of work experience as an Associate Software Developer at Goldman Sachs. His current area of interest is cloud distribution systems and associated frameworks. Avishek is well-versed with Object Oriented Programming languages such as Java and C++ and looks forward to working with CS16 students to break down difficult concepts and get everyone to enjoy programming in C++. You can also reach out to him for questions and suggestions related to internships. In his free time, Avishek loves to travel and play DOTA2.
+<img src="https://ucsb-cs16.github.io/f21/info/staff/CS16-F22-Kaiwen-Li.JPG" alt="Kev" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+
+Hi everyone, my name is Kaiwen Li. I am a first year MS student under BS/MS program in UCSB. I was working on Amazon Alexa team this summer and developed a smart notification delivery system to deliver notifications at an appropriate time. I enjoy riding bikes and I have a white kawasaki. I will ride my bike to school everyday unless it is raining. Don't hesitate to ask me anything about homework, internship, or anything else.
 <pre>
-Office Hours: T 6PM - 8PM (in-person)
-              R 5PM - 7PM (in-person)
+Office Hours: R 10AM - 11AM (remote)
 </pre>
 
 
