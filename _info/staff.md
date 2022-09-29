@@ -15,6 +15,7 @@ Online Office Hours for CS16 F22 are held here: <TBD>
 
 Sections will start in person on 09/29
 Office hours for the week of 09/26- 09/30 will be online via Zoom.
+Here is the link: <https://bit.ly/cs16-f22-zoom-office-hours>
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRrjaOYKvrRqXLKtOe-P0YMuVp0MdAX01bgvnXdmUMZ9xZ7RDIiFM4kFjuxJblrTFha25zuqWDotREE/pubhtml?widget=true&amp;headers=false"></iframe>
 

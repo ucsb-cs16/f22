@@ -91,6 +91,9 @@ Each student is responsible for knowing and abiding by UCSB's policies on Academ
 If a lab allows you to pair program, you must choose a partner before you start working on the lab. You must then follow the pair programming guidelines descibed in the video above. All the while you should be working on a single copy of the assignment. The name of both partners should be clearly specified as a comment at the top of each file.
 The partners should make a single joint submission to our autograder (gradescope) and add the name of both partners to the submission made on gradescope. Failure to follow these guidelines, for example submitting two copies of the same code individually would be considered a case of academic dishonesty and will be reported Academic Integrity Office
 
+## Policy for finding a partner
+You are encouraged to work with a different partner for each lab (that allows collaboration). You must try to pair with a student who is registered in the same section as you. If you are unable to find a partner in the same section, inform your primary TA who will assiste you with finding a partner. If the TA is unable to assist you with finding a partner, you may pair with a student registered in a different section. However, both students should plan to attend a common section going forward. Students in a pair will work together to complete select lab and programming assignments.
+
 ## Late Lab Policy
 
 The policy is simple, and is based on the idea that the primary purpose of the deadlines is to allow the TA manage his/her workload. The number of labs in this course requires that he/she not have to do "context switching" between grading different labs. All labs must be graded in one sitting, or he/she just won't be able to keep up with the workload.

@@ -126,3 +126,9 @@ defaults:
       type: info
     values:
       layout: handout
+  -
+    scope:
+      path: "staff.md"
+      type: info
+    values:
+      layout: handout
