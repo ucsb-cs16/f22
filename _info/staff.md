@@ -88,10 +88,8 @@ My hobbies include dancing, singing, beach volleyball, and spending with with th
 
 ## Zackary Glazewski, LA
 
-Connor McIntosh is an Undergraduate Learning Assistant for CS16
-and a 4th year CS major from Ventura, CA. He is a member of the
-Data Science club at UCSB who has worked on and started sports analytics
-machine learning projects. Connor is also a member of the Gaucho Pep Band,
-so you may see him playing the drums at basketball and soccer games this year.
+<img src="../_info/staff/CS16-zackGlazewski.jpg" alt="Zack" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+
+Hello everyone! My name is Zack Glazewski and I'm a 3rd year CS Major. I feel very excited to help you all not only learn, but enjoy the process along the way. Some more information about me: I love cats (I have a cat named Link who is bascially my child), playing piano, and developing my own games. I'm always happy to help, so please don't hesitate if you have any questions. I look forward to meeting you all!
 
 
