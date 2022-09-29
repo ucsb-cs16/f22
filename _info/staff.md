@@ -51,7 +51,13 @@ on broadening participation in research through early research experiences for u
 
 ## Alex Mei, TA
 
-Hi everyone! My name is Nawel, and I am a first year Ph.D. student in the CS department at UCSB. I graduated with an Engineering/Master's degree from the National School of Computer Science in my hometown of Algiers - Algeria. I then moved to Japan to pursue my second Master's at the University of Tokyo, before joining Hitachi, Ltd. as a researcher.  During the 5 years I spent in the corporate world, I had the chance to work on very different projects, ranging from networking protocol development, to renewable energy systems design. That's our privilege as computer scientists: wherever there is some sort of computation/data involved (which in this day and age is everywhere!), we can have a role to play, and a contribution to make. For my Ph.D. I am planning to focus on networking technologies, as I believe efficient and reliable communication is the lifeline of modern societies. Feel free to reach out if you'd like to know more about any of the above themes, and of course, about C++ development. I'm excited to be part of the CS 16 staff, and I look forward to working with you all!
+<img src="../staff/CS16-F22-Alex-Mei.JPG" alt="Alex" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+ 
+Hello There! I am Alex Mei, a computer science B.S./M.S. student at University of California, Santa Barbara advised by Professors William Wang and Shiyu Chang under the Natural Language Processing Group. My research interests lie in responsible machine learning, with a current focus on AI safety and transparency. In the past, I have interned at Procore, Benchling, and Two Sigma. In my free time, I am enjoy cooking (alexmeicooking.com) and watching reality competitions (Survivor, The Amazing Race, Masterchef, Hell's Kitchen). Feel free to reach out if you'd like to discuss research, internships, C++ development, or anything else; always happy to help! 
+
+<pre>
+Office Hours: T 9:30 - 10:30 AM (Henley 2002 or online)
+</pre>
 
 ## Gautam Mundewadi, TA
 
