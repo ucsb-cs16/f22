@@ -100,4 +100,8 @@ My hobbies include dancing, singing, beach volleyball, and spending with with th
 
 Hello everyone! My name is Zack Glazewski and I'm a 3rd year CS Major. I feel very excited to help you all not only learn, but enjoy the process along the way. Some more information about me: I love cats (I have a cat named Link who is bascially my child), playing piano, and developing my own games. I'm always happy to help, so please don't hesitate if you have any questions. I look forward to meeting you all!
 
+## Martin Cabello, LA
 
+<img src="https://ucsb-cs16.github.io/f21/info/staff/CS16-F22-MartinC.jpg" alt="Kev" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+
+Hey! I am Martin Cabello. I am a 4th year Computer Science student from Redwood City, CA(Bay Area) and I will be a ULA this quarter. C++ is the langauge I am most confortable with so I am exited to help yall improve your skills in this programming throughout the quarter. Feel free to come to me for any help related to CS or anything you want to talk about.
