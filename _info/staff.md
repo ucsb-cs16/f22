@@ -61,13 +61,13 @@ Office Hours: T 9:30 - 10:30 AM (Henley 2002 or online)
 
 ## Gautam Mundewadi, TA
 
-<img src="https://ucsb-cs16.github.io/f21/info/staff/CS16-F22-Gautam-M.png" alt="Gautam" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+<img src="../staff/CS16-F22-Gautam-M.png" alt="Gautam" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
 
 Hey all! My name is Gautam and I'm a second year CS Masters student. I was previously an undergrad here at UCSB and was part of the BS/MS program in computer science. I'm currently graduate researcher at the RACElab and my area of research is smartfarm technologies. I've previously interned at Microsoft and Meta and will be joining Meta full time as software engineer in December. As for clubs on campus, I was previously president of Coders SB (check them out!) and Dhadkan. In my free time I love to play video games, paint, kayak from time to time, and wake up early for Formula 1 races. Feel free to reach out if you'd like to know more about my experiences or have any other general questions about UCSB. I'm super excited to be a part of the CS16 staff and I look forward to working with everyone!
 
 ## Kaiwen Li, TA
 
-<img src="https://ucsb-cs16.github.io/f21/info/staff/CS16-F22-Kaiwen-Li.JPG" alt="Kev" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+<img src="../staff/CS16-F22-Kaiwen-Li.JPG" alt="Kev" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
 
 Hi everyone, my name is Kaiwen Li. I am a first year MS student under BS/MS program in UCSB. I was working on Amazon Alexa team this summer and developed a smart notification delivery system to deliver notifications at an appropriate time. I enjoy riding bikes and I have a white kawasaki. I will ride my bike to school everyday unless it is raining. Don't hesitate to ask me anything about homework, internship, or anything else.
 <pre>
@@ -77,7 +77,7 @@ Office Hours: R 10AM - 11AM (remote)
 
 ## Vinothini Gunasekaran, TA
 
-<img src="https://ucsb-cs16.github.io/f21/info/staff/CS16-F21-Kev.JPG" alt="Kev" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+<img src="../staff/CS16-F21-Kev.JPG" alt="Kev" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
 
 My name is Kevin, but call me Kev. I am a Master of Technology Management student who recently studied my undergraduate in CS at UCSB. I also recently worked at Appfolio as a Software Quality Assurance Engineer before returning to UCSB. 
 
@@ -88,7 +88,7 @@ My hobbies include dancing, singing, beach volleyball, and spending with with th
 
 ## Gretchen Lam, LA
 
-<img src="https://ucsb-cs16.github.io/f21/info/staff/CS16-F22-Gretchen-Lam.jpg" alt="Gretchen" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+<img src="../staff/CS16-F22-Gretchen-Lam.jpg" alt="Gretchen" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
 
  Hi everyone! My name is Gretchen, and I'm a 2nd year CS major from Orange County, CA. I'm very excited to be one of your ULAs for CS16, especially since I really enjoyed this course last year. I'm currently involved in TASA here at UCSB, and in my free time, I love playing games, watching anime, movies, and TV shows, and exploring the city! I would love nothing more than to further not only your learning, but my own as well, so please feel free to ask questions or just chat!
 
@@ -96,12 +96,12 @@ My hobbies include dancing, singing, beach volleyball, and spending with with th
 
 ## Zackary Glazewski, LA
 
-<img src="../_info/staff/CS16-zackGlazewski.jpg" alt="Zack" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+<img src="../staff/CS16-zackGlazewski.jpg" alt="Zack" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
 
 Hello everyone! My name is Zack Glazewski and I'm a 3rd year CS Major. I feel very excited to help you all not only learn, but enjoy the process along the way. Some more information about me: I love cats (I have a cat named Link who is bascially my child), playing piano, and developing my own games. I'm always happy to help, so please don't hesitate if you have any questions. I look forward to meeting you all!
 
 ## Martin Cabello, LA
 
-<img src="https://ucsb-cs16.github.io/f21/info/staff/CS16-F22-MartinC.jpg" alt="Kev" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+<img src="../staff/CS16-F22-MartinC.jpg" alt="Kev" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
 
 Hey! I am Martin Cabello. I am a 4th year Computer Science student from Redwood City, CA(Bay Area) and I will be a ULA this quarter. C++ is the langauge I am most confortable with so I am exited to help yall improve your skills in this programming throughout the quarter. Feel free to come to me for any help related to CS or anything you want to talk about.
