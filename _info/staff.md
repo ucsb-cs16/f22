@@ -88,8 +88,9 @@ My hobbies include dancing, singing, beach volleyball, and spending with with th
 
 ## Gretchen Lam, LA
 
+<img src="https://ucsb-cs16.github.io/f21/info/staff/CS16-F22-Gretchen-Lam.jpg" alt="Gretchen" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
 
- Hello dear students! My name is Arthur, and I will be your ULA this quarter. CS16 was the first course I took at UCSB three years ago, so I'm nostalgic and also exteremely sympathetic towards you who get to experience this course and learn the basics of C++ for the first time. I will do my best to make sure you have a good experience in this class. Feel free to come for any help or chat about anything that interests you.
+ Hi everyone! My name is Gretchen, and I'm a 2nd year CS major from Orange County, CA. I'm very excited to be one of your ULAs for CS16, especially since I really enjoyed this course last year. I'm currently involved in TASA here at UCSB, and in my free time, I love playing games, watching anime, movies, and TV shows, and exploring the city! I would love nothing more than to further not only your learning, but my own as well, so please feel free to ask questions or just chat!
 
 
 
