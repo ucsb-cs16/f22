@@ -77,14 +77,15 @@ Office Hours: R 10AM - 11AM (remote)
 
 ## Vinothini Gunasekaran, TA
 
-<img src="../staff/CS16-F21-Kev.JPG" alt="Kev" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+<img src="../staff/CS16-F21-Vinothini-G.JPG" alt="Vino" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
 
-My name is Kevin, but call me Kev. I am a Master of Technology Management student who recently studied my undergraduate in CS at UCSB. I also recently worked at Appfolio as a Software Quality Assurance Engineer before returning to UCSB. 
+Hello everyone! My name is Vinothini, you can call me Vino. I'm a second year MS student. Before joining Master's program at UCSB, I was working as a software developer in a cloud based software company for 4+ years and I interned at Amazon in this summer. Currently, I'm working in MOMENT Lab with Prof.Elizabeth Belding.
 
-I love to chat. Please come to me with any questions about homework, labs, or career planning. I would be happy to help you along.
-
-My hobbies include dancing, singing, beach volleyball, and spending with with the people I love. 
-
+If you have any questions about coursework or if you need help in programming in general, don't hesitate to reach me out via Piazza or Email. I would be happy to help you along.
+<pre>
+Office Hours: M 2PM - 3PM (Remote)
+</pre>
+ 
 
 ## Gretchen Lam, LA
 
