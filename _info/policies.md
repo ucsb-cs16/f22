@@ -98,9 +98,9 @@ You are encouraged to work with a different partner for each lab (that allows co
 
 The policy is simple, and is based on the idea that the primary purpose of the deadlines is to allow the TA manage his/her workload. The number of labs in this course requires that he/she not have to do "context switching" between grading different labs. All labs must be graded in one sitting, or he/she just won't be able to keep up with the workload.
 So:
-* If you want your work to be graded without penalty, turn it in on time.
-* We will grade late labs ONLY if it creates no extra inconvenience for the graders, and we MAY impose a late penalty.
-* There is NO GUARANTEE that late labs will be graded at all. The TA will simply start work at some point after the deadline, and grade until he/she is finished. At that time, he/she will "close the books" on that particular lab, and any work not submitted at that time will NOT be considered.
+* Zybook readings have a grace period of 1 week without penalty from the due date posted on the assignment calendar
+* There is NO GUARANTEE that zyBook readings will be graded at all beyond the grace period. The TA will upload the grades for the readings at some point after the deadline. At that time, he/she will "close the books" on that particular homework/assignment, and any work not submitted at that time will NOT be considered.
+* You may turn lab assignments 24 hours late for a 10% deduction.
 
 
 ## Frequently Asked Questions <a name="faq"></a>
