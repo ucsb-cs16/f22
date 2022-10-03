@@ -428,7 +428,7 @@ Note that if you subsequently make changes to any of the files `block.cpp`, `pi.
 
 At any time, you can type the `git status` command and it will help you determine which files, if any, are out of date in your repo. For each out of date file, the sequence `git add filename.cpp`, then `git commit -m "message goes here"` then `git push origin main` should get the changes published to your GitHub repo.
 
-You can visit your repo at any time by logging in to GitHub, and visiting <https://github.com/ucsb-cs16-f21>, where you should see it in the list of repos to which you have access.  If you don't see it there, ask the staff for assistance.
+You can visit your repo at any time by logging in to GitHub, and visiting <{{site.github-org-url}}>, where you should see it in the list of repos to which you have access.  If you don't see it there, ask the staff for assistance.
 
 
 ## Step 7: Submit your code on gradescope
