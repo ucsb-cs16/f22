@@ -1,5 +1,5 @@
 ---
-desc: Git, arrays, passing parameters to main and more practice with (nested) loops
+desc: Git, arrays, and passing parameters to main
 num: lect04
 lecture_date: 2022-10-05
 ready: true
