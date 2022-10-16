@@ -1,6 +1,6 @@
 ---
 desc: More Makefiles +  Data representation
-num: lect05
+num: lect06
 lecture_date: 2022-10-12
 ready: true
 ---

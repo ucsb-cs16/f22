@@ -1,6 +1,6 @@
 ---
 desc: More practice with (nested) loops, Makefiles
-num: lect04
+num: lect05
 lecture_date: 2022-10-10
 ready: true
 ---
