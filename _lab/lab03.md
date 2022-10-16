@@ -9,13 +9,8 @@ ready: true
 ---
 
 
-
 # Collaboration policy 
 * This lab must be completed individually
-
-# Pre-lab prep
-Watch this video on pair programming :<http://bit.ly/pair-programming-video> 
-In the lab, plan to work with your partner using the style highlighted in the video
 
 
 # Academic Honesty 
