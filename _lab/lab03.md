@@ -434,7 +434,6 @@ When you have a clean build, you are nearly done with this lab.   I say "nearly"
 Note:
 You MUST make one final submission that includes ALL of your files.  For getting incremental feedback while working on the lab, it is fine to submit one at a time, but for GRADING purposes, your LAST submission (in time) must be a complete submission of EVERYTHING.   In the ideal case (for you), that submission is completely "green", i.e. all test cases pass, and you have a perfect score (at least from the standpoint of the points you are awarded for passing the test cases.)
 
-Make sure you add your pair partner as a collaborator (this should show up on the right side of your screen on gradescope after you submit your files).
 
 If there are parts you can't figure out, be sure to submit all of your files anyway to maximize the number of points you receive based on the parts that '''are''' working.
 
