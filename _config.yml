@@ -50,7 +50,7 @@ cal_dates: >
     {"label":"Thanksgiving", "date":"2022-11-26" },
     {"label":"F22 instruction ends", "date":"2022-12-03" },
     {"label":"F22 finals start", "date":"2022-12-04" },
-    {"label":"F22 CS16 MIDTERM (11am-12:15pm)", "date":"2022-10-26" },                      
+    {"label":"F22 CS16 MIDTERM (11am-12:15pm)", "date":"2022-11-02" },                      
     {"label":"F22 CS16 FINAL (noon-3pm)", "date":"2022-12-08" },                                               
     {"label":"F22 qtr ends", "date":"2022-12-09" }                              
   ]
