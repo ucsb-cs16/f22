@@ -7,7 +7,7 @@ assigned: 2022-10-20 13:00
 due: 2022-10-27 14:00
 ---
 
-Note that the content for this lab will be included on the upcoming midterm. Although you have until next Thursday ({{ page.due | date: "%a %m %d %Y at %H:%M"}}) to submit your solution, we highly encourage you to complete the lab before the midterm.
+Note that the content for this lab will be included on the upcoming midterm. 
 
 ## Collaboration policy
 This lab must be completed individually (and not with a pair partner).
