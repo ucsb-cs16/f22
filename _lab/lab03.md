@@ -473,7 +473,7 @@ Log into your account on [https://www.gradescope.com/](https://www.gradescope.co
 
 Then click on the "Submit" button on the bottom right corner to make a submission. You will be given the option of uploading files from GitHub.
 
-You should receive 100/100 for a set of completely correct programs, and partial credit if one or two of the three is correct.
+You should receive 90/90 for a set of completely correct programs, and partial credit if one or two of the three is correct.
 
 If any errors are shown, you can address that with this sequence of steps:
 * Go back to edit the file with `vim filename.cpp` and make the needed changes
