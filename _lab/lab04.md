@@ -13,11 +13,14 @@ Note that the content for this lab will be included on the upcoming midterm.
 This lab must be completed individually (and not with a pair partner).
 
 ## Getting setup with VS Code
-You have the option of continuing to work with vim or try a new editor (VS Code)
-The TAs and ULAs can help you with getting VS Code and the extensions that you need installed on your laptop. Here are some useful tutorials
-* Installing VS Code: <https://ucsb-cs16.github.io/topics/code/>
-* Remote development using VS Code: <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack>
+You have the option of continuing to work with vim or try a new editor (VS Code).
 Setting up VS Code for remote development is really useful because you can access your files on csil remotely through VS Code. It allows you to use a modern editor while working in the csil environment. 
+
+Follow a step by step tutorial on how to get setup by our awesome TA Gautam Mundewadi: <https://docs.google.com/presentation/d/1SlmryHeN5BOtBjsEbCOUK4OEFk6EdO_CnK9fV_lMofQ/edit?usp=sharing?>
+
+The TAs and ULAs will help you in the lab to get a working set up on your laptop.
+Just remember to bring your laptops! 
+
 
 ## Step 0: Log on to CSIL and bring up a terminal window. 
 
