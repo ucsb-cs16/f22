@@ -17,7 +17,7 @@ You have the option of continuing to work with vim or try a new editor (VS Code)
 The TAs and ULAs can help you with getting VS Code and the extensions that you need installed on your laptop. Here are some useful tutorials
 * Installing VS Code: <https://ucsb-cs16.github.io/topics/code/>
 * Remote development using VS Code: <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack>
-Setting up VS Code for remote development is really useful because you can access your files on csil remotely through VS Code. This has the benefit of being able use a modern editor while working in the csil environment. 
+Setting up VS Code for remote development is really useful because you can access your files on csil remotely through VS Code. It allows you to use a modern editor while working in the csil environment. 
 
 ## Step 0: Log on to CSIL and bring up a terminal window. 
 
