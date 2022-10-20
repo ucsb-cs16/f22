@@ -12,7 +12,7 @@ Note that the content for this lab will be included on the upcoming midterm.
 ## Collaboration policy
 This lab must be completed individually (and not with a pair partner).
 
-## Getting set up with VS Code
+## Getting setup with VS Code
 You have the option of continuing to work with vim or try a new editor (VS Code)
 The TAs and ULAs can help you with getting VS Code and the extensions that you need installed on your laptop. Here are some useful tutorials
 * Installing VS Code: <https://ucsb-cs16.github.io/topics/code/>
