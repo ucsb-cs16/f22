@@ -16,7 +16,7 @@ This lab must be completed individually (and not with a pair partner).
 You have the option of continuing to work with vim or try a new editor (VS Code).
 Setting up VS Code for remote development is really useful because you can access your files on csil remotely through VS Code. It allows you to use a modern editor while working in the csil environment. 
 
-Follow a step by step tutorial on how to get setup by our awesome TA Gautam Mundewadi: <https://docs.google.com/presentation/d/1SlmryHeN5BOtBjsEbCOUK4OEFk6EdO_CnK9fV_lMofQ/edit?usp=sharing?>
+Follow a step by step tutorial on how to get setup by our awesome TA, Gautam Mundewadi: <https://docs.google.com/presentation/d/1SlmryHeN5BOtBjsEbCOUK4OEFk6EdO_CnK9fV_lMofQ/edit?usp=sharing?>
 
 The TAs and ULAs will help you in the lab to get a working set up on your laptop.
 Just remember to bring your laptops! 
