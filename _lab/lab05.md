@@ -7,6 +7,8 @@ assigned: 2022-11-03 13:00
 due: 2022-11-10 14:00
 ---
 
+# Collaboration policy
+This lab must be completed individually 
 
 ## Step 0: Log on to CSIL and bring up a terminal window. 
 

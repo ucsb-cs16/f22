@@ -7,6 +7,8 @@ assigned: 2022-11-03 13:00
 due: 2022-11-10 14:00
 ---
 
+# Collaboration policy
+This lab must be completed individually 
 
 # Goals of this lab
 
