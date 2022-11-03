@@ -26,13 +26,13 @@ to understand the dynamics of your program and how it is interacting with memory
 
 ## Step 1: Getting Ready
 
-1. Go to github and find a repo for lab06 assigned to your GitHub id.
+1. Go to github and find a repo for lab05 assigned to your GitHub id.
 
 2. Log on to your CSIL account.
 
 3. Change into your `~/cs16` directory
 
-4. Clone your empty lab06 repo into your `~/cs16` directory.
+4. Clone your empty lab05 repo into your `~/cs16` directory.
 
 5. In your empty repo, do `git checkout -b main` to establish that you are on the `main` branch as your default branch.
 
@@ -41,9 +41,9 @@ to understand the dynamics of your program and how it is interacting with memory
 
 The starter code is in this repo:
 
-* <https://github.com/{{site.github_org}}/STARTER-lab06>
+* <https://github.com/{{site.github_org}}/STARTER-lab05>
 
-The URL for cloning this repo is this: `git@github.com:{{site.github_org}}/STARTER-lab06.git`
+The URL for cloning this repo is this: `git@github.com:{{site.github_org}}/STARTER-lab05.git`
 
 Previous labs contain instruction for the process of:
 * Adding a `starter` remote for this repo
