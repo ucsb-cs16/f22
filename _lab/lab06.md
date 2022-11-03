@@ -1,6 +1,6 @@
 ---
 layout: lab
-num: lab06
+num: lab05
 ready: true
 desc: "Fun with shapes: Pointers and Structs"
 assigned: 2022-11-03 13:00
@@ -41,9 +41,9 @@ to understand the dynamics of your program and how it is interacting with memory
 
 The starter code is in this repo:
 
-* <https://github.com/{{site.github_org}}/STARTER-lab06>
+* <https://github.com/{{site.github_org}}/STARTER-lab05>
 
-The URL for cloning this repo is this: `git@github.com:{{site.github_org}}/STARTER-lab06.git`
+The URL for cloning this repo is this: `git@github.com:{{site.github_org}}/STARTER-lab05.git`
 
 Previous labs contain instruction for the process of:
 * Adding a `starter` remote for this repo
