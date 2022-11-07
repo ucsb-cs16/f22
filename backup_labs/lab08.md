@@ -18,9 +18,7 @@ This lab will have you do programming exercises with C-strings, string class obj
 ## Helpful things to review:
 
 * For the `find` and `substr` function for working with C++ strings, see [zyBook Section 6.16](https://learn.zybooks.com/zybook/UCSBCMPSC16Fall2021/chapter/6/section/16)
-* For linked lists, see [the video from 11/02](https://ucsb-cs16.github.io/f21/lectures/lect12/)
-* For Makefiles, see [the video](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=79cd4753-20cc-4fd6-a4d4-ade2013e793b) and [the slides](https://docs.google.com/presentation/d/1-D-LByk2uNYYlDzLMzYJN5qaboc3L_kAtbQzkEsRJZc/edit#slide=id.g10044ac1284_0_501) from [11/09](https://ucsb-cs16.github.io/f21/lectures/lect14/) 
-* For recursion, see the video and slides from [the lecture on 11/18](https://ucsb-cs16.github.io/f21/lectures/lect16/)
+
 
 ## Step by Step Instructions
 
