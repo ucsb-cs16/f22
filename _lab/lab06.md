@@ -116,6 +116,8 @@ Each one has a set of tests which can be found under its corresponding heading w
 
 You should replace each function stub with the correct code for the function until all of the tests for each one pass. It is recommended that you work on the functions one at a time in the order that they are presented above. That is, get all the tests to pass for indexOfMax then indexOfMin and so on. When all the tests pass, move on to the next step. 
 
+**You must implement each function iteratively. For this lab, you CANNOT implement the function with recursion. Any recursive implementations will not receive credit for this lab and be flagged for possible plagarism.** (Note: if you are unaware what a recursive implementation entails, do not worry, we have not covered this technique in class yet. This lab should be completed using only using the techniques we learned in class.)
+
 ## Step 4: Checking your work before submitting
 
 When you are finished, you should be able to type  <code>make clean</code> and then <code>make tests</code> and see the following output:
@@ -159,7 +161,8 @@ PASSED: indexOfMin(fiveThrees,5)
 PASSED: indexOfMin(zeros,3)
 PASSED: indexOfMin(primes,5)
 PASSED: indexOfMin(primes,10)
-PASSED: indexOfMin(meaning,1)
+PASSED: indexOfMin(meanin
+g,1)
 PASSED: indexOfMin(mix1,10)
 PASSED: indexOfMin(mix2,10)
 PASSED: indexOfMin(mix1,3)
@@ -246,8 +249,11 @@ Submit all the `.cpp` and `.h` files to this assignment on Gradescope via your g
 1. Indentation is neat, consistent and follows good practice (see below)
 2. Variable name choice: variables should have sensible names.
 	More on indentation: Your code should be indented neatly. Code that is inside braces should be indented, and code that is at the same "level" of nesting inside braces should be indented in a consistent way. Follow the examples from lecture, the sample code, and from the textbook.   
+3. Practice the DRY (Don't Repeat Yourself) principle. Once you have finished implementing your code, try to find areas that are repetitive or redundant and spend some time to optimize. 
 
-Commit and push the latest version of your code on github
+Commit and push the latest version of your code on github.
+
+**Graders will check your code to make sure it follows the coding style guidelines. Egregious violations to the coding style guidelines may be subject a score reduction for your lab grade.** If you are unsure whether your code exhibits good coding style, please ask a member of the course staff during lab.  
 
 ## An important word about academic honesty and the gradescope system
 
