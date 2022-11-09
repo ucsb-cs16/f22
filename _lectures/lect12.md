@@ -5,7 +5,7 @@ lecture_date: 2022-11-07
 ready: true
 ---
 
-In today's class you will critique some code that I have written using the superhero data set that we have been working with.
+In today's class you will critique some code that I have written that uses the superhero dataset.
 
 Start by navigating to the code published on github:
 <https://github.com/ucsb-cs16-f22/lectures/tree/main/lect12>
