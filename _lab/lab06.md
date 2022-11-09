@@ -4,7 +4,7 @@ num: lab06
 ready: true
 desc: "Array lists and dynamic arrays"
 assigned: 2022-11-08 13:00
-due: 2022-11-15 14:00
+due: 2022-11-17 14:00
 ---
 
 
