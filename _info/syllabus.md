@@ -22,12 +22,11 @@ You must contact the instructor for clarification if you receive information fro
 
 * Homeworks/Zybook Activities: 20%
 * Gradescope/Lab Assignments: 20%
-* Midterm Exam: 25%
-* Final Exam: 35%
+* Exams: Midterm: 25%, Final: 35%
 
 Letter Grades:
 
-* To earn a grade of A, you must have an A average overall, **and in each of the four components**.
+* To earn a grade of A, you must have an A average overall, **and in each of the three components**.
 * To earn a grade of A-, you must have at least an A- average overall, and **at least a B- average in each of the components**.
 * To earn a grade of B+, you must have at least an B+ average overall, and **at least a C+ average in  each of the components**.
 * To earn a grade of B, you must have at least an B+ average overall, and **at least a C average in  each of the components**.
