@@ -176,12 +176,20 @@ The *splice* function is a bonus question - note that it is intended to be diffi
 
 Refer to the following style guide to learn more about good coding style: [link to style guide](https://docs.google.com/presentation/d/16ExuzjlRWClQe-GbX_FNYKsSJnrd0Z5ef7N1c0sezUA/edit?usp=sharing). If you are unsure about the quality of your code and comments, please ask a member of the course staff during section or office hours. 
 
-## An important word about academic honesty and the gradescope system
+## Academic Honesty
 
-We will test your code against other data files too&mdash;not just these.  So while you might be able to pass the tests on gradescope now by just doing a hard-coded "cout" of the expected output, that will NOT receive credit.    
+We will test your code against other data files too&mdash;not just these. So while you might be able to pass the tests on gradescope now by just doing a hard-coded "cout" of the expected output, that will NOT receive credit.    
 
-To be very clear, code like this will pass on gradescope, BUT REPRESENTS A FORM OF ACADEMIC DISHONESTY since it is an attempt to just "game the system", i.e. to get the tests to pass without really solving the problem.
+To be very clear, code like this will pass on gradescope, but represents a form of academic dishonesty since it is an attempt to just "game the system", i.e. to get the tests to pass without really solving the problem.
 
 I would hope this would be obvious, but I have to say it so that there is no ambiguity: hard coding your output is a form of cheating, i.e. a form of "academic dishonesty".  Submitting a program of this kind would be subject not only to a reduced grade, but to possible disciplinary penalties.    If there is <em>any</em> doubt about this fact, please ask your TA and/or your instructor for clarification.
 
+And, as usual, all code you submit must be written and thought of by you. Referring to online homework answer services is definitely a form of academic dishonesty and will be reported. Do not jeopardize your academic career over one assignment. Please reach out on Piazza and come to section or office hours if you need help.
 
+## Logging Out
+
+If you are logged in remotely, you can log out using the exit command:
+
+```
+$ exit
+```
