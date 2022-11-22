@@ -156,14 +156,14 @@ The *splice* function is a bonus question - note that it is intended to be diffi
 
 <table border="1">
 <tr><th>Test Name</th><th>Value</th></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">isPalindrome()</p></td><td>(10 pts)</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">recursiveSum()</p></td><td>(10 pts)</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">recursiveLargestValue()</p></td><td>(10 pts)</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">recursiveFindKthNode()</p></td><td>(10 pts)</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">recursiveDeleteKthNode()</p></td><td>(10 pts)</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">recursiveRemoveKFromFront()</p></td><td>(10 pts)</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">recursiveElementwiseSum()</p></td><td>(20 pts)</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">recursiveSplice()</p></td><td>(BONUS - 1% Extra Credit)</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">isPalindrome()</p></td><td>[10 pts]</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">recursiveSum()</p></td><td>[10 pts]</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">recursiveLargestValue()</p></td><td>[10 pts]</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">recursiveFindKthNode()</p></td><td>[10 pts]</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">recursiveDeleteKthNode()</p></td><td>[10 pts]</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">recursiveRemoveKFromFront()</p></td><td>[10 pts]</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">recursiveElementwiseSum()</p></td><td>[20 pts]</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">recursiveSplice()</p></td><td>[1% Course Extra Credit]</td></tr>
 </table>
 
 ## Manual Grading
