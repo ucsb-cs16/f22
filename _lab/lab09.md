@@ -11,7 +11,9 @@ due: 2022-12-06 14:00:00.00-8
 
 The goal of this lab is get more practice with recursion, linked-lists, and string functions. 
 
-Continue to practice code tracing to reason about your code. We request that you DO NOT ask the staff to debug your code. They have been specifically instructed not to debug for you, rather to guide in the process.
+To prepare you for the final exam, this lab will ask you to implement functions that may appear difficult. Do not panic! First, refer to this following problem solving guide and follow the guidelines to help you solve complex problems: https://sites.cs.ucsb.edu/~alexmei/documents/cs16/week7.pdf. If you need more assistance, the course staff is happy to provide you additional support on Piazza, in section, and during office hours.
+
+Continue to practice code tracing to reason about your code. We request that you DO NOT ask the staff to debug your code. They have been specifically instructed not to debug for you, rather to guide in the process. 
 
 Do not refer the starter code from previous offerings of this course as this version is new. Remember that code that is not written by you (even if it from starter code from a previous offering) is in violation of the academic honesty for this class.
 
@@ -135,16 +137,18 @@ Each one has a set of tests which can be found under its corresponding heading w
 
 You should replace each function stub with the correct code for the function until all of the tests for each one pass. It is recommended that you work on the functions one at a time in the order that they are presented above. That is, get all the tests to pass for addIntToStartOfList then addIntToEndOfList and so on. When all the tests pass, move on to the next step. 
 
-## Step 4: Checking your work before submitting
+## Step 4: Check Your Work
 
 When you are finished, you should be able to type  <code>make clean</code> and then <code>make tests</code> and see all of the tests pass.
 
-At that point, you are ready to try submitting on gradescope.
+At that point, you are ready to try submitting on gradescope. 
 
 
-## Step 5: Submit Your Assignment on Gradescope
+## Step 5: Submitting on Gradescope
 
 Submit the strFuncs.cpp and linkedListFuncs.cpp files on gradescope. 
+
+**Note that the test cases provided to you in the lab are not comprehensive. If your code does not pass the Gradescope tests, think about possible edge cases that is breaking your code.**
 
 # Grading Rubric
 
