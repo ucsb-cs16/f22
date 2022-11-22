@@ -152,7 +152,7 @@ Most of the points will be awarded based on gradescope automatic grading. Other 
 
 The *splice* function is a bonus question - note that it is intended to be difficult. Although Gradescope will be display a score out of 110, your lab is only worth 100 points - should you successfully complete the bonus, you will receive 110/100. We will manually adjust the grades afterwards.
 
-## Gradescope automatic points
+## Gradescope Autograder
 
 <table border="1">
 <tr><th>Test Name</th><th>Value</th></tr>
@@ -166,11 +166,11 @@ The *splice* function is a bonus question - note that it is intended to be diffi
 <tr><td><p style="color:green;margin:0;padding:0;">recursiveSplice()</p></td><td>(BONUS - 1% Extra Credit)</td></tr>
 </table>
 
-## Code inspection human-assigned points
+## Manual Grading
 
-* Recursive Implementations:
+* **Recursive Implementations:**
 1. You will receive NO credit for any function you did not implement using recursion. The points you receive from the autograder will be deducted from your final score.
-* (20 pts) Code Comments and Coding Style:
+* **[20 pts] Code Comments and Coding Style:**
 1. Code Comments: comments are clear and descriptive, making the code easy to understand; the comments should be convincing that the student understands the code they've written.
 2. Code Style: code can be easily understood by humans familiar with C++; code is neatly indented and formatted; variable names choices are reasonable; code is reasonably "DRY" (as in "don't repeat yourself")&mdash;where appropriate, common code is factored out into functions; code is not unnecessarily or unreasonably complex when a simpler solution is available
 
