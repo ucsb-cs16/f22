@@ -107,8 +107,8 @@ In linkedListFuncs.cpp:
         - recursiveFindKthNode(list, 3) = 4
         - recursiveFindKthNode(list, 4) = NULL
 
-- **[10 points] recursiveRemoveKFromFront()**
-  - Recursively delete k nodes from a linked list 
+- **[10 points] recursiveDeleteKthNode()**
+  - Recursively delete the kth node from a linked list 
   - Given the head of a linked list, delete the kth node from the linked list
     - k will always be less than or equal to the length of the linked list
     - Return NULL if there are no nodes left after deleting.
@@ -117,6 +117,12 @@ In linkedListFuncs.cpp:
         - recursiveRemoveKFromFront(list, 2) = 2 &rarr; 4
         - recursiveRemoveKFromFront(list, 1) = 3 &rarr; 4
         - recursiveRemoveKFromFront(list, 4) = 2 &rarr; 3
+
+- **[10 points] recursiveRemoveKFromFront()**
+  - Recursively delete k nodes from a linked list
+  - Given the head of a linked list, delete the first k nodes from the linked list
+    - k will always be less than or equal to the length of the linked list
+    - Return NULL if there are no nodes left after deleting.
 
 - **[20 points] recursiveElementwiseSum()**
   - Recursively find the elementwise sum of two linked lists
