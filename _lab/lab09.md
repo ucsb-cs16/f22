@@ -192,7 +192,8 @@ The *recursiveSplice* function is a bonus question - note that it is intended to
 1. You will receive NO credit for any function you did not implement using recursion. The points you receive from the autograder will be deducted from your final score.
 * **[20 pts] Code Comments and Coding Style:**
 1. Code Comments: comments are clear and descriptive, making the code easy to understand; the comments should be convincing that the student understands the code they've written.
-2. Code Style: code can be easily understood by humans familiar with C++; code is neatly indented and formatted; variable names choices are reasonable; code is reasonably "DRY" (as in "don't repeat yourself")&mdash;where appropriate, common code is factored out into functions; code is not unnecessarily or unreasonably complex when a simpler solution is available
+2. Code Style: code can be easily understood by humans familiar with C++; code is neatly indented and formatted; variable names choices are reasonable; code is reasonably "DRY" (as in "don't repeat yourself")&mdash;where appropriate, common code is factored out into functions; code is not unnecessarily or unreasonably complex when a simpler solution is available.
+**These points will be awarded on a binary basis. If your comments or coding style is exceptionally underwhelming, you will not receive any of these points.**
 
 Refer to the following style guide to learn more about good coding style: [link to style guide](https://docs.google.com/presentation/d/16ExuzjlRWClQe-GbX_FNYKsSJnrd0Z5ef7N1c0sezUA/edit?usp=sharing). If you are unsure about the quality of your code and comments, please ask a member of the course staff during section or office hours. 
 
