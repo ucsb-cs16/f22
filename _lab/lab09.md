@@ -70,8 +70,7 @@ Please note that this lab may be more difficult than the previous labs you have 
 ### Step 3b: String and Linked List and Functions
 
 Please note that all of these functions **must** be written recursively. You will not get credit if you implement them iteratively.
-There are 7 functions you will need to write for this lab, one of which is a bonus:
-
+There are 8 functions you will need to write for this lab, one of which is a bonus:
 
 In strFuncs.cpp:
 - **[10 points] isPalindrome()**
@@ -114,15 +113,19 @@ In linkedListFuncs.cpp:
     - Return NULL if there are no nodes left after deleting.
   - Example: 
       - list:  2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        - recursiveRemoveKFromFront(list, 2) = 2 &rarr; 4
-        - recursiveRemoveKFromFront(list, 1) = 3 &rarr; 4
-        - recursiveRemoveKFromFront(list, 4) = 2 &rarr; 3
+        - recursiveDeleteKthNode(list, 2) = 2 &rarr; 4
+        - recursiveDeleteKthNode(list, 1) = 3 &rarr; 4
+        - recursiveDeleteKthNode(list, 4) = 2 &rarr; 3
 
 - **[10 points] recursiveRemoveKFromFront()**
   - Recursively delete k nodes from a linked list
   - Given the head of a linked list, delete the first k nodes from the linked list
     - k will always be less than or equal to the length of the linked list
     - Return NULL if there are no nodes left after deleting.
+  - Example: 
+      - list:  2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        - recursiveRemoveKFromFront(list, 2) = 4
+        - recursiveRemoveKFromFront(list, 1) = 3 &rarr; 4
 
 - **[20 points] recursiveElementwiseSum()**
   - Recursively find the elementwise sum of two linked lists
