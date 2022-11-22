@@ -17,7 +17,7 @@ Continue to practice code tracing to reason about your code. We request that you
 
 Do not refer the starter code from previous offerings of this course as this version is new. Remember that code that is not written by you (even if it from starter code from a previous offering) is in violation of the academic honesty for this class.
 
-# Step by Step Instructions: PLEASE READ CAREFULLY!
+# Step by Step Instructions!
 
 ## Step 1: Getting Started
 
@@ -29,7 +29,7 @@ Do not refer the starter code from previous offerings of this course as this ver
 
 Note: Remember to push your work to github at the end of EVERY work session. That way, you will not accidentally lose your code.
 
-## Step 2: Obtaining the starter code
+## Step 2: Starter Code
 
 * <https://github.com/ucsb-cs16-f22/STARTER-lab09>
 
@@ -48,19 +48,18 @@ If you need help with these steps:
 Once you've populated your repo, typing the `ls` command should show you the following files in your current directory.
 
 ```
-TODO: UPDATE THIS!!!
 $ ls
-Makefile              linkedListFuncs.h	       tddFuncs.cpp
-README.md             llTests.cpp		           tddFuncs.h
-linkedList.h          moreLinkedListFuncs.cpp
-linkedListFuncs.cpp	  moreLinkedListFuncs.h
+deleteKthNodeTest.cpp   linkedListFuncs.cpp  removeKFromFrontTest.cpp  strTest.cpp
+elementwiseSumTest.cpp  linkedListFuncs.h    spliceTest.cpp            sumTest.cpp
+findKthNodeTest.cpp     Makefile             strFuncs.cpp              tddFuncs.cpp
+largestValueTest.cpp    README.md            strFuncs.h                tddFuncs.h
 ```
 
-## Step 3: Reviewing the files and what your tasks are
+## Step 3: Review the Files
 
 Here is a list of your tasks for this lab:
 
-### Step 3a: Familiarize yourself with the big picture
+### Step 3a: Look at the Big Picture
 
 Type "make tests" and you will see some tests pass, but some fail. 
 
@@ -68,7 +67,7 @@ You are finished when all the tests pass. You will need to edit two files: <code
 
 Please note that this lab may be more difficult than the previous labs you have worked on. We encourage you to ask questions publicly on Piazza (so your classmates can be of assistance) and attend office hours for 1:1 assistance.
 
-### Step 3b: Work on the linked list and string functions
+### Step 3b: String and Linked List and Functions
 
 Please note that all of these functions **must** be written recursively. You will not get credit if you implement them iteratively.
 There are 7 functions you will need to write for this lab, one of which is a bonus:
@@ -171,7 +170,7 @@ Submit the strFuncs.cpp and linkedListFuncs.cpp files on gradescope.
 
 Most of the points will be awarded based on gradescope automatic grading. Other points will be assigned after visual code inspection by TAs - if a function is not implemented recursively, you will receive **NOT** receive any credit for that function at all.
 
-The *recursiveSplice()* function is a bonus question - note that it is intended to be difficult. Although Gradescope will be display a score out of 110, your lab is only worth 100 points - should you successfully complete the bonus and the rest of the lab, you will receive 100/100 on the lab and 1% extra credit in the course. We will manually adjust the grades afterwards.
+The *recursiveSplice* function is a bonus question - note that it is intended to be difficult. Although Gradescope will be display a score out of 110, your lab is only worth 100 points - should you successfully complete the bonus and the rest of the lab, you will receive 100/100 on the lab and 1% extra credit in the course. We will manually adjust the grades afterwards.
 
 ## Gradescope Autograder
 
