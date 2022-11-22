@@ -142,10 +142,6 @@ When you are finished, you should be able to type  <code>make clean</code> and t
 At that point, you are ready to try submitting on gradescope.
 
 
-You are also required to apply the style guidelines as described in this presentation: [link to style guide](https://docs.google.com/presentation/d/16ExuzjlRWClQe-GbX_FNYKsSJnrd0Z5ef7N1c0sezUA/edit?usp=sharing)
-
-If you are using a style different from what is recommended and feel strongly about continuing in that style, you may include a note as a comment in the README of your project explaining the rationale behind your choices. Cite any sources as relevant.
-
 ## Step 5: Submitting via gradescope
 
 Submit the strFuncs.cpp and linkedListFuncs.cpp files on gradescope. Make sure to add your partner as a collaborator if you had one.
@@ -160,24 +156,25 @@ The *splice* function is a bonus question - note that it is intended to be diffi
 
 <table border="1">
 <tr><th>Test Name</th><th>Value</th></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">isPalindrome</p></td><td>(10 pts)</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">findKthNode</p></td><td>(10 pts)</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">removeKFromFront</p></td><td>(10 pts)</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">sum</p></td><td>(20 pts)</td></tr>
-<tr><td><p style="color:green;margin:0;padding:0;">splice</p></td><td>(10 pts - BONUS)</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">isPalindrome()</p></td><td>(10 pts)</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">recursiveSum()</p></td><td>(10 pts)</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">recursiveLargestValue()</p></td><td>(10 pts)</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">recursiveFindKthNode()</p></td><td>(10 pts)</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">recursiveDeleteKthNode()</p></td><td>(10 pts)</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">recursiveRemoveKFromFront()</p></td><td>(10 pts)</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">recursiveElementwiseSum()</p></td><td>(20 pts)</td></tr>
+<tr><td><p style="color:green;margin:0;padding:0;">recursiveSplice()</p></td><td>(BONUS - 1% Extra Credit)</td></tr>
 </table>
 
 ## Code inspection human-assigned points
 
-* (40 pts) Used recursion to implement every function.
-* (10 pts) Code style, including but not limited to:
-1. Code can be easily understood by humans familiar with C++ (including both the author(s) of the code, and non-authors of the code.)
-2. Code is neatly indented and formatted, following standard code indentation practices for C++ as illustrated in either the textbook, or example code given in lectures and labs
-3. Variable names choices are reasonable
-4. Code is reasonably "DRY" (as in "don't repeat yourself")&mdash;where appropriate, common code is factored out into functions
-5. Code is not unnecessarily or unreasonably complex when a simpler solution is available
-6. Other guidelines as discussed in the style guide for this class: [link to style guide](https://docs.google.com/presentation/d/16ExuzjlRWClQe-GbX_FNYKsSJnrd0Z5ef7N1c0sezUA/edit?usp=sharing)
-7. Fix any style issues (inconsistencies or other problems) in the starter code.
+* Recursive Implementations:
+1. You will receive NO credit for any function you did not implement using recursion. The points you receive from the autograder will be deducted from your final score.
+* (20 pts) Code Comments and Coding Style:
+1. Code Comments: comments are clear and descriptive, making the code easy to understand; the comments should be convincing that the student understands the code they've written.
+2. Code Style: code can be easily understood by humans familiar with C++; code is neatly indented and formatted; variable names choices are reasonable; code is reasonably "DRY" (as in "don't repeat yourself")&mdash;where appropriate, common code is factored out into functions; code is not unnecessarily or unreasonably complex when a simpler solution is available
+
+Refer to the following style guide to learn more about good coding style: [link to style guide](https://docs.google.com/presentation/d/16ExuzjlRWClQe-GbX_FNYKsSJnrd0Z5ef7N1c0sezUA/edit?usp=sharing). If you are unsure about the quality of your code and comments, please ask a member of the course staff during section or office hours. 
 
 ## An important word about academic honesty and the gradescope system
 
