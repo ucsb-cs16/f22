@@ -31,9 +31,9 @@ Note: Remember to push your work to github at the end of EVERY work session. Tha
 
 ## Step 2: Obtaining the starter code
 
-* <https://github.com/{{site.github_org}}/STARTER-{{page.num}}>
+* <https://github.com/ucsb-cs16-f22/STARTER-lab09>
 
-The URL for cloning this repo is this: `git@github.com:{{site.github_org}}/STARTER-{{page.num}}.git`
+The URL for cloning this repo is this: `git@github.com:ucsb-cs16-f22/STARTER-lab09.git`
 
 Previous labs contain instruction for the process of:
 * Adding a `starter` remote for this repo
@@ -85,8 +85,18 @@ In strFuncs.cpp:
     
 In linkedListFuncs.cpp:
 - **[10 points] recursiveSum()**
+   - Recursively calculate the sum of a linked list
+   - Given a head node, return the sum of the linked list
+   - Example
+      - list:  2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        - recursiveSum(list) = 9
 
 - **[10 points] recursiveLargestValue()**
+   - Recursively find the largest value in a linked list
+   - Given a head node, return the largest value in the linked list
+   - Example
+      - list:  2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        - recursiveLargestValue(list) = 4
 
 - **[10 points] recursiveFindKthNode()**
   - Recursively find the kth Node of a linked list
@@ -94,17 +104,23 @@ In linkedListFuncs.cpp:
     -You do not know whether the linked-list contains k or more nodes; if k is greater than the length of the linked-list, return NULL
     - Example: 
       - list:  2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        - findKthNode(list, 1) = 2
-        - findKthNode(list, 3) = 4
-        - findKthNode(list, 4) = NULL
+        - recursiveFindKthNode(list, 1) = 2
+        - recursiveFindKthNode(list, 3) = 4
+        - recursiveFindKthNode(list, 4) = NULL
 
 - **[10 points] recursiveRemoveKFromFront()**
   - Recursively delete k nodes from a linked list 
-  - Given the head of a linked list, delete the first k nodes from the linked list
+  - Given the head of a linked list, delete the kth node from the linked list
     - k will always be less than or equal to the length of the linked list
     - Return NULL if there are no nodes left after deleting.
+  - Example: 
+      - list:  2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        - recursiveRemoveKFromFront(list, 2) = 2 &rarr; 4
+        - recursiveRemoveKFromFront(list, 1) = 3 &rarr; 4
+        - recursiveRemoveKFromFront(list, 4) = 2 &rarr; 3
 
-- **[20 points] Recursively find the sum of two linked lists**
+- **[20 points] recursiveElementwiseSum()**
+  - Recursively find the elementwise sum of two linked lists
   - Given two head nodes, return the head of a **new** linked-list where each element is the sum of the corresponding element of the other two
     - if one linked-list is shorter, fill the rest of the result with elements from the other (i.e., treat the non-existent nodes as a value of zero)
     - Do **NOT** change the values of the original linked list - you must make a new one
@@ -112,8 +128,9 @@ In linkedListFuncs.cpp:
       - Linked List 1: 1 &rarr; 2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Linked List 2: 5 &rarr; 6 &rarr; 7 
         - Output: 6 &rarr; 8 &rarr; 10 &rarr; 4 
 
-- **[BONUS: 1% Extra Credit] Recursively splice together two linked lists**
+- **[BONUS: 1% Extra Credit] recursiveSplice()**
   - This is a bonus problem; doing it is optional
+  - Recursively splice together two linked lists
   - Given two linked lists, splice the two linked lists together
     - Splice two linked lists by interweaving the nodes - the second linked list's nodes should be inserted at alternating positions into the first linked list
     - If the size of the two linked lists differ, after successfully splicing, finish the combined linked list with the remaining elements of the larger linked list
@@ -126,7 +143,7 @@ In linkedListFuncs.cpp:
         
   - You CANNOT create another linked list - doing so will fail both the local tests and Gradescope tests. Instead, splice the lists together by rearranging the *next* pointers of each linked list. You are allowed to declare additional nodes, but the returned linked list should only contain nodes from each linked list, in some order. 
   
-Each one has a set of tests which can be found under its corresponding heading when you type <code>make tests</code>. For example, the addIntToEndOfList tests look like this to start: 
+Each one has a set of tests which can be found under its corresponding heading when you type <code>make tests</code>. For example, the recursiveRemoveKNodesFromFront tests look like this to start: 
 
 ```
 ./llTests 1
@@ -135,7 +152,7 @@ Each one has a set of tests which can be found under its corresponding heading w
      Expected: 4 5  Actual:
 ```
 
-You should replace each function stub with the correct code for the function until all of the tests for each one pass. It is recommended that you work on the functions one at a time in the order that they are presented above. That is, get all the tests to pass for addIntToStartOfList then addIntToEndOfList and so on. When all the tests pass, move on to the next step. 
+You should replace each function stub with the correct code for the function until all of the tests for each one pass. It is recommended that you work on the functions one at a time in the order that they are presented above. That is, get all the tests to pass for isPalindrome then recursiveSum and so on. When all the tests pass, move on to the next step. **Note that the test cases provided to you in the lab are not comprehensive. Think about possible edge cases that is breaking your code.**
 
 ## Step 4: Check Your Work
 
@@ -148,7 +165,7 @@ At that point, you are ready to try submitting on gradescope.
 
 Submit the strFuncs.cpp and linkedListFuncs.cpp files on gradescope. 
 
-**Note that the test cases provided to you in the lab are not comprehensive. If your code does not pass the Gradescope tests, think about possible edge cases that is breaking your code.**
+**If your code does not pass the Gradescope tests, think about possible edge cases that is breaking your code.**
 
 # Grading Rubric
 
