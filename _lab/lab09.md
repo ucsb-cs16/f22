@@ -142,15 +142,15 @@ When you are finished, you should be able to type  <code>make clean</code> and t
 At that point, you are ready to try submitting on gradescope.
 
 
-## Step 5: Submitting via gradescope
+## Step 5: Submit Your Assignment on Gradescope
 
-Submit the strFuncs.cpp and linkedListFuncs.cpp files on gradescope. Make sure to add your partner as a collaborator if you had one.
+Submit the strFuncs.cpp and linkedListFuncs.cpp files on gradescope. 
 
 # Grading Rubric
 
 Most of the points will be awarded based on gradescope automatic grading. Other points will be assigned after visual code inspection by TAs - if a function is not implemented recursively, you will receive **NOT** receive any credit for that function at all.
 
-The *splice* function is a bonus question - note that it is intended to be difficult. Although Gradescope will be display a score out of 110, your lab is only worth 100 points - should you successfully complete the bonus, you will receive 110/100. We will manually adjust the grades afterwards.
+The *recursiveSplice()* function is a bonus question - note that it is intended to be difficult. Although Gradescope will be display a score out of 110, your lab is only worth 100 points - should you successfully complete the bonus and the rest of the lab, you will receive 100/100 on the lab and 1% extra credit in the course. We will manually adjust the grades afterwards.
 
 ## Gradescope Autograder
 
