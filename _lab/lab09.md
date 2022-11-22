@@ -100,7 +100,7 @@ In linkedListFuncs.cpp:
 - **[10 points] recursiveFindKthNode()**
   - Recursively find the kth Node of a linked list
   - Given a head node and integer k, return the address of the kth node
-    -You do not know whether the linked-list contains k or more nodes; if k is greater than the length of the linked-list, return NULL
+    - You do not know whether the linked-list contains k or more nodes; if k is greater than the length of the linked-list, return NULL
     - Example: 
       - list:  2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         - recursiveFindKthNode(list, 1) = 2
@@ -123,7 +123,7 @@ In linkedListFuncs.cpp:
   - Given two head nodes, return the head of a **new** linked-list where each element is the sum of the corresponding element of the other two
     - if one linked-list is shorter, fill the rest of the result with elements from the other (i.e., treat the non-existent nodes as a value of zero)
     - Do **NOT** change the values of the original linked list - you must make a new one
-    -Examples
+    - Examples
       - Linked List 1: 1 &rarr; 2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Linked List 2: 5 &rarr; 6 &rarr; 7 
         - Output: 6 &rarr; 8 &rarr; 10 &rarr; 4 
 
