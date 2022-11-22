@@ -1,73 +1,58 @@
 ---
 layout: lab
-num: lab08
+num: lab09
 ready: true
 desc: "Recursion"
-assigned: 2020-03-03 09:00:00.00-8
-due: 2020-03-10 23:59:00.00-8
+assigned: 2022-11-28 08:00:00.00-8
+due: 2022-12-06 14:00:00.00-8
 ---
 
 # Goals of this lab
 
-The goal of this lab is get more practice with recursion, linked-lists, and string functions. Continue to practice code tracing to reason about your code. We request that you DO NOT ask the staff to debug your code. They have been specifically instructed not to debug for you, rather to guide in the process.
+The goal of this lab is get more practice with recursion, linked-lists, and string functions. 
 
-You are also required to apply the style guidelines as described in this presentation: [link to style guide](https://docs.google.com/presentation/d/16ExuzjlRWClQe-GbX_FNYKsSJnrd0Z5ef7N1c0sezUA/edit?usp=sharing)
+Continue to practice code tracing to reason about your code. We request that you DO NOT ask the staff to debug your code. They have been specifically instructed not to debug for you, rather to guide in the process.
 
-If you are using a style different from what is recommended and feel strongly about continuing in that style, you may include a note as a comment in the README of your project explaining the rationale behind your choices. Cite any sources as relevant.
-
-If you are using any instructor written code or hints from a previous offering of this course, cite your source. Remember that code that is not written by you is in violation of the academic honesty for this class.
-
+Do not refer the starter code from previous offerings of this course as this version is new. Remember that code that is not written by you (even if it from starter code from a previous offering) is in violation of the academic honesty for this class.
 
 # Step by Step Instructions: PLEASE READ CAREFULLY!
 
 ## Step 1: Getting Started
 
-1. Decide if you are working alone, or working in a pair. Pair programming is OPTIONAL for this lab.
+1. Go to github and find a repo for this lab assigned to your GitHub id.
+2. Log on to your CSIL account.
+3. Change into your `~/cs16` directory
+4. Clone your empty lab06 repo into your `~/cs16` directory.
+5. In your empty repo, do `git checkout -b main` to establish that you are on the `main` branch as your default branch.
 
-2. Choose who will be the first driver and who will start as navigator, and then remember to switch (at least once) during the lab.
-
-3. Go to github and create a git repo for this lab following the naming convention specified in previous labs (this step carries style points, see our feedback on previous labs to understand what we are looking for). If you are working with a partner only one of you needs to create the repo.
-
-4. If you are working with a partner and you are the one who created the github repo, add your partner as a collborator on the repo
-
-5. Decide on initial navigator and driver.
-
-6. Driver, log on to your CSIL account.
-
-7. Open a terminal window and log into the correct machine.
-
-8. Change into your CS 16 directory
-
-Note: Remember to push your work to github at the end of EVERY work session. That way, both partners always have access to the latest version of the code even if the code is being developed on one partner's CoE account.
-
-
+Note: Remember to push your work to github at the end of EVERY work session. That way, you will not accidentally lose your code.
 
 ## Step 2: Obtaining the starter code
 
-* Navigate to your cs16 directory and clone the git repository you created
-```
-git clone git@github.com:ucsb-cs16-mirza/lab08_alily_jgaucho.git
-```
-* cd into this new directory
-```
-cd lab08_alily_jgaucho
-```
+* <https://github.com/{{site.github_org}}/STARTER-{{page.num}}>
 
-* Copy the starter code by typing the following command:
+The URL for cloning this repo is this: `git@github.com:{{site.github_org}}/STARTER-{{page.num}}.git`
+
+Previous labs contain instruction for the process of:
+* Adding a `starter` remote for this repo
+* Pulling the code from that `starter` remote into your own repo.
+
+Please do those steps now, and then do a `git push origin main` to populate your own repo with the starter code.
+
+If you need help with these steps:
+* First consult previous labs for more detailed instructions.   
+* Then, if you are still having trouble, ask the staff for help during discussion section or office hours.
+
+Once you've populated your repo, typing the `ls` command should show you the following files in your current directory.
 
 ```
-cp /cs/faculty/dimirza/cs16/labs/lab08/* ./
+TODO: UPDATE THIS!!!
+$ ls
+Makefile              linkedListFuncs.h	       tddFuncs.cpp
+README.md             llTests.cpp		           tddFuncs.h
+linkedList.h          moreLinkedListFuncs.cpp
+linkedListFuncs.cpp	  moreLinkedListFuncs.h
 ```
-
-Typing the list (ls) command should show you the following files in your current directory
-
-```
-[dimirza@csil-03 lab08-startercode]$ ls
-Makefile   linkedListFuncs.cpp  linkedListTest.cpp        spliceTest.cpp  strFuncs.h   sumTest.cpp   tddFuncs.h
-README.md  linkedListFuncs.h    removeKFromFrontTest.cpp  strFuncs.cpp    strTest.cpp  tddFuncs.cpp
-[dimirza@csil-03 lab08-startercode]$
-```
-
 
 ## Step 3: Reviewing the files and what your tasks are
 
@@ -75,20 +60,21 @@ Here is a list of your tasks for this lab:
 
 ### Step 3a: Familiarize yourself with the big picture
 
-Type "make tests" and you will see some tests pass, but some fail. Note: if you get a warning about comparing signed and unsigned integers, please ignore it.
+Type "make tests" and you will see some tests pass, but some fail. 
 
 You are finished when all the tests pass. You will need to edit two files: <code>linkedListFuncs.cpp</code> and <code>strFuncs.cpp</code>
 
-Please note that this lab may be more difficult than the previous labs you have worked on. Don't be afraid to ask questions on Piazza and attend open lab hours.
+Please note that this lab may be more difficult than the previous labs you have worked on. We encourage you to ask questions publicly on Piazza (so your classmates can be of assistance) and attend office hours for 1:1 assistance.
 
 ### Step 3b: Work on the linked list and string functions
 
 Please note that all of these functions **must** be written recursively. You will not get credit if you implement them iteratively.
-There are 4 functions you will need to write for this lab, one of which is a bonus:
+There are 7 functions you will need to write for this lab, one of which is a bonus:
 
 
 In strFuncs.cpp:
-- **Recursively check if a string is a palindrome**
+- **[10 points] isPalindrome()**
+  - Recursively check if a string is a palindrome
   - A palindrome is a word or phrase that reads the same backwards & forwards 
   - Palindromes **are not** case-sensitive - disregard spaces as well
   - Examples
@@ -96,20 +82,12 @@ In strFuncs.cpp:
     - *HelloN* reads *olleH* and is not a palindrome
     
 In linkedListFuncs.cpp:
-- **Recursively delete k nodes from a linked list**
-  - Given the head of a linked list, delete the first k nodes from the linked list
-    - k will always be less than or equal to the length of the linked list
-    - Return NULL if there are no nodes left after deleting.
+- **[10 points] recursiveSum()**
 
-- **Recursively find the sum of two linked lists**
-  - Given two head nodes, return the head of a **new** linked-list where each element is the sum of the corresponding element of the other two
-    - if one linked-list is shorter, fill the rest of the result with elements from the other (i.e., treat the non-existent nodes as a value of zero)
-    - Do **NOT** change the values of the original linked list - you must make a new one
-    -Examples
-      - Linked List 1: 1 &rarr; 2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Linked List 2: 5 &rarr; 6 &rarr; 7 
-        - Output: 6 &rarr; 8 &rarr; 10 &rarr; 4 
+- **[10 points] recursiveLargestValue()**
 
-- **Recursively find the kth Node of a linked list**
+- **[10 points] recursiveFindKthNode()**
+  - Recursively find the kth Node of a linked list
   - Given a head node and integer k, return the address of the kth node
     -You do not know whether the linked-list contains k or more nodes; if k is greater than the length of the linked-list, return NULL
     - Example: 
@@ -118,8 +96,21 @@ In linkedListFuncs.cpp:
         - findKthNode(list, 3) = 4
         - findKthNode(list, 4) = NULL
 
+- **[10 points] recursiveRemoveKFromFront()**
+  - Recursively delete k nodes from a linked list 
+  - Given the head of a linked list, delete the first k nodes from the linked list
+    - k will always be less than or equal to the length of the linked list
+    - Return NULL if there are no nodes left after deleting.
 
-- **BONUS: Recursively splice together two linked lists**
+- **[20 points] Recursively find the sum of two linked lists**
+  - Given two head nodes, return the head of a **new** linked-list where each element is the sum of the corresponding element of the other two
+    - if one linked-list is shorter, fill the rest of the result with elements from the other (i.e., treat the non-existent nodes as a value of zero)
+    - Do **NOT** change the values of the original linked list - you must make a new one
+    -Examples
+      - Linked List 1: 1 &rarr; 2 &rarr; 3 &rarr; 4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Linked List 2: 5 &rarr; 6 &rarr; 7 
+        - Output: 6 &rarr; 8 &rarr; 10 &rarr; 4 
+
+- **[BONUS: 1% Extra Credit] Recursively splice together two linked lists**
   - This is a bonus problem; doing it is optional
   - Given two linked lists, splice the two linked lists together
     - Splice two linked lists by interweaving the nodes - the second linked list's nodes should be inserted at alternating positions into the first linked list
@@ -150,6 +141,10 @@ When you are finished, you should be able to type  <code>make clean</code> and t
 
 At that point, you are ready to try submitting on gradescope.
 
+
+You are also required to apply the style guidelines as described in this presentation: [link to style guide](https://docs.google.com/presentation/d/16ExuzjlRWClQe-GbX_FNYKsSJnrd0Z5ef7N1c0sezUA/edit?usp=sharing)
+
+If you are using a style different from what is recommended and feel strongly about continuing in that style, you may include a note as a comment in the README of your project explaining the rationale behind your choices. Cite any sources as relevant.
 
 ## Step 5: Submitting via gradescope
 
