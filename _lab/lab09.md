@@ -7,6 +7,9 @@ assigned: 2022-11-28 08:00:00.00-8
 due: 2022-12-06 14:00:00.00-8
 ---
 
+# Complete survey to help plan for the logistics of the final exam
+All students are required to complete this survey to get their assigned seat for the final: <https://forms.gle/t54c1jnyZdPdTmEk9>
+
 # Goals of this lab
 
 The goal of this lab is get more practice with recursion, linked-lists, and string functions. 
