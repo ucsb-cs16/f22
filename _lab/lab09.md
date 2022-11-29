@@ -8,7 +8,7 @@ due: 2022-12-06 14:00:00.00-8
 ---
 
 # Complete survey to help plan for the logistics of the final exam
-All students are required to complete this survey to get their assigned seat for the final: <https://forms.gle/t54c1jnyZdPdTmEk9>
+All students are required to complete this survey by Fri Dec 2 at noon to get their assigned seat for the final: <https://forms.gle/wHupQCCPZ4UVxoWu8>
 
 # Goals of this lab
 
