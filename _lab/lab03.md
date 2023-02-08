@@ -247,7 +247,7 @@ The function will have the following <em>function prototype:</em>
 
 * As a reminder, a function prototype is the first line of the function definition (the header) followed by a semicolon instead of the function body&mdash;it is used to introduce the function to the compiler, in case the function definition isn't coming until later.
 
-* You can read more about function prototypes here: [C++: function prototypes](https://ucsb-cs16.github.io/topics/cpp_function_prototypes/)
+* You can read more about function prototypes here: [C++: function prototypes](https://ucsb-cs16.github.io/topics/cpp_function_prototypes)
 
 The following table shows various calls to this function, along with what the string returned looks like when printed using <code> cout << starL(w,h); </code>
 
