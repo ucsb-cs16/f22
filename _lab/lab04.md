@@ -109,7 +109,7 @@ where your C++ program may be divided among multiple source files.
 The following web page explains more about separate compilation, 
 dividing your program up among multiple C++ and .h files, and using a Makefile. 
 I strongly encourage you to read over it briefly before you proceed with the lab: 
-[Separate Compilation and Makefiles](https://ucsb-cs16.github.io/topics/makefile/)
+[Separate Compilation and Makefiles](https://ucsb-cs16.github.io/topics/makefile)
 
 
 ## Step 5: Writing isOdd(), isEven() and isPrime()
